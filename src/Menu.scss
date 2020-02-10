@@ -8,7 +8,9 @@
     width: 100vw;
     z-index: 1;
     transition: .2s;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 106, 148, 0.93);
+    box-shadow: inset 11px 18px 115px 25px rgba(0, 0, 0, 0.55);
+    height: 340px;
 
     &--active {
         right: 0;
