@@ -1,10 +1,11 @@
 import React from 'react'
+import './Header.scss';
+
+import logoVmarine from './img/logo-vmarine.jpg'
 
 const Header = () => {
     return (
-        <div>
-            Header
-        </div>
+        <img className='vmarine-logo' src={logoVmarine} alt="VMARINE logo" />
     )
 }
 
