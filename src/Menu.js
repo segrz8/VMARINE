@@ -10,7 +10,7 @@ const Menu = (props) => {
             className={props.menuActive ? 'menu menu--active' : 'menu'}
         >
             <ul>
-                <li><Link to='/about'>O nas</Link></li>
+                <li><Link to='/'>O nas</Link></li>
                 <li><Link to='/dockmate'>Dockmate</Link></li>
                 <li><Link to='/havospark'>HavoSpark</Link></li>
                 <li><Link to='/yachts'>Jachty na sprzedaż</Link></li>

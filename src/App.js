@@ -5,7 +5,6 @@ import './App.scss';
 import Header from './Header';
 import Hamburger from './Hamburger';
 import Menu from './Menu';
-import Main from './Main';
 import About from './About';
 import Dockmate from './Dockmate';
 import HavoSpark from './HavoSpark';
@@ -14,6 +13,7 @@ import Cruises from './Cruises';
 import Charter from './Charter';
 import Assistance from './Assistance';
 import Contact from './Contact';
+import ScrollToTop from 'react-router-scroll-top';
 
 class App extends React.Component {
 
@@ -45,15 +45,16 @@ class App extends React.Component {
 						/>
 					</nav>
 					<main>
-						<Route exact path="/" component={Main} />
-						<Route path="/about" component={About} />
-						<Route path="/dockmate" component={Dockmate} />
-						<Route path="/havospark" component={HavoSpark} />
-						<Route path="/yachts" component={Yachts} />
-						<Route path="/cruises" component={Cruises} />
-						<Route path="/charter" component={Charter} />
-						<Route path="/assistance" component={Assistance} />
-						<Route path="/contact" component={Contact} />
+						<ScrollToTop>
+							<Route exact path="/" component={About} />
+							<Route path="/dockmate" component={Dockmate} />
+							<Route path="/havospark" component={HavoSpark} />
+							<Route path="/yachts" component={Yachts} />
+							<Route path="/cruises" component={Cruises} />
+							<Route path="/charter" component={Charter} />
+							<Route path="/assistance" component={Assistance} />
+							<Route path="/contact" component={Contact} />
+						</ScrollToTop>
 					</main>
 				</div>
 			</BrowserRouter>
