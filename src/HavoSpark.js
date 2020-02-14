@@ -3,6 +3,7 @@ import './HavoSpark.scss';
 import Carousel from 'react-bootstrap/Carousel';
 
 import logo from './img/aquajet foto/Logo/Havospark logo(1).jpg';
+import logo2 from './img/aquajet foto/Logo/logo_white.jpg';
 
 import img1 from './img/aquajet foto/H2 Bali image/H2-1.jpg';
 import img2 from './img/aquajet foto/H2 Bali image/H2-2.jpg';
@@ -17,7 +18,13 @@ import img8 from './img/aquajet foto/White Photos/002white 1 (new logo).215.png'
 import img9 from './img/aquajet foto/White Photos/002white(new logo).213.png';
 import img10 from './img/aquajet foto/White Photos/004bule(new logo).217.png';
 
-// import img11 from './img/aquajet foto/Photos - Average Quality/';
+import img11 from './img/aquajet foto/Photos - Average Quality/1 (1).jpg';
+import img12 from './img/aquajet foto/Photos - Average Quality/1 (2).jpg';
+import img13 from './img/aquajet foto/Photos - Average Quality/1 (3).jpg';
+import img14 from './img/aquajet foto/Photos - Average Quality/1 (13).jpg';
+import img15 from './img/aquajet foto/Photos - Average Quality/1 (42).jpg';
+import img16 from './img/aquajet foto/Photos - Average Quality/1 (45).jpg';
+import img17 from './img/aquajet foto/Photos - Average Quality/1 (62).jpg';
 
 const HavoSpark = () => {
     return (
@@ -69,6 +76,40 @@ Skuter łączy w sobie nowoczesną technologię i inteligentny design gwarantuj�
                 </Carousel>
             </div>
             <p>Projekt skutera AquaJet Dive H2  powstał na bazie projektów samolotów i dzięki opatentowanym skrzydłom skuter ma bardzo dobry balans, stabilność i jest bardzo sterowny.</p>
+            <div className="carousel">
+                <Carousel controls={false} indicators={false}>
+                    <Carousel.Item>
+                        <img src={img11} class="d-block w-100" alt="..." />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={img12} class="d-block w-100" alt="..." />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={img13} class="d-block w-100" alt="..." />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={img14} class="d-block w-100" alt="..." />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={img15} class="d-block w-100" alt="..." />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={img16} class="d-block w-100" alt="..." />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={img17} class="d-block w-100" alt="..." />
+                    </Carousel.Item>
+                </Carousel>
+            </div>
+            <p>Dzięki zamontowanemu uchwytowi na aparat, nagrywanie filmów i robienie zdjęć pod wodą jeszcze nigdy nie było tak łatwe i wygodne. </p>
+            <div className="logo">
+                <img src={logo2} alt="hoverstar logo" />
+            </div>
+            <div className="contact">
+                <h2>Kontakt:</h2>
+                <p>+48 692 780 074</p>
+                <p>info@vmarine.pl</p>
+            </div>
         </div>
     )
 }
