@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/VMARINE/static/css/main.285ea03b.chunk.css",
-    "main.js": "/VMARINE/static/js/main.f503fcd6.chunk.js",
-    "main.js.map": "/VMARINE/static/js/main.f503fcd6.chunk.js.map",
+    "main.js": "/VMARINE/static/js/main.0e2bc6bf.chunk.js",
+    "main.js.map": "/VMARINE/static/js/main.0e2bc6bf.chunk.js.map",
     "runtime-main.js": "/VMARINE/static/js/runtime-main.e9d07edb.js",
     "runtime-main.js.map": "/VMARINE/static/js/runtime-main.e9d07edb.js.map",
     "static/css/2.47e06e2e.chunk.css": "/VMARINE/static/css/2.47e06e2e.chunk.css",
     "static/js/2.c558c652.chunk.js": "/VMARINE/static/js/2.c558c652.chunk.js",
     "static/js/2.c558c652.chunk.js.map": "/VMARINE/static/js/2.c558c652.chunk.js.map",
     "index.html": "/VMARINE/index.html",
-    "precache-manifest.9fae7e1ea78187b46c30c5f277f3ea99.js": "/VMARINE/precache-manifest.9fae7e1ea78187b46c30c5f277f3ea99.js",
+    "precache-manifest.39b416919c360046a9f658fa9954e628.js": "/VMARINE/precache-manifest.39b416919c360046a9f658fa9954e628.js",
     "service-worker.js": "/VMARINE/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/VMARINE/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.285ea03b.chunk.css.map": "/VMARINE/static/css/main.285ea03b.chunk.css.map",
@@ -79,6 +79,6 @@
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.c558c652.chunk.js",
     "static/css/main.285ea03b.chunk.css",
-    "static/js/main.f503fcd6.chunk.js"
+    "static/js/main.0e2bc6bf.chunk.js"
   ]
 }
