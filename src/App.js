@@ -8,6 +8,8 @@ import Menu from './Menu';
 import About from './About';
 import Dockmate from './Dockmate';
 import HavoSpark from './HavoSpark';
+import Fendertex from './Fendertex';
+import Rescue from './Rescue';
 import Yachts from './Yachts';
 import Cruises from './Cruises';
 import Charter from './Charter';
@@ -49,6 +51,8 @@ class App extends React.Component {
 							<Route exact path="/" component={About} />
 							<Route path="/dockmate" component={Dockmate} />
 							<Route path="/havospark" component={HavoSpark} />
+							<Route path="/fendertex" component={Fendertex} />
+							<Route path="/rescue" component={Rescue} />
 							<Route path="/yachts" component={Yachts} />
 							<Route path="/cruises" component={Cruises} />
 							<Route path="/charter" component={Charter} />
