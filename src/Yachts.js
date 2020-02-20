@@ -4,7 +4,7 @@ import './Yachts.scss';
 const Yachts = () => {
     return (
         <div>
-            Yachts
+            Informacje wkrótce...
         </div>
     )
 }

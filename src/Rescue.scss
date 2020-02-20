@@ -1,0 +1,13 @@
+.rescue {
+    .carousel {
+        img {
+            margin-bottom: 20px;
+        }
+
+        &.contain {
+            img {
+                object-fit: contain;
+            }
+        }
+    }
+}

@@ -18,12 +18,19 @@ import img7 from './img/serwis/20170710_181235.jpg';
 import img7s from './img/serwis/20170710_181235s.jpg';
 
 import img8 from './img/serwis/20170713_152855.jpg';
+import img8s from './img/serwis/20170713_152855s.jpg';
 import img9 from './img/serwis/20171115_123054.jpg';
+import img9s from './img/serwis/20171115_123054s.jpg';
 import img10 from './img/serwis/20171123_131750.jpg';
+import img10s from './img/serwis/20171123_131750s.jpg';
 import img11 from './img/serwis/20190329_122146.jpg';
+import img11s from './img/serwis/20190329_122146s.jpg';
 import img12 from './img/serwis/20190403_165826.jpg';
+import img12s from './img/serwis/20190403_165826s.jpg';
 import img13 from './img/serwis/20190904_090542.jpg';
+import img13s from './img/serwis/20190904_090542s.jpg';
 import img14 from './img/serwis/20191211_153657.jpg';
+import img14s from './img/serwis/20191211_153657s.jpg';
 
 const Assistance = () => {
 
@@ -37,7 +44,28 @@ const Assistance = () => {
         { id: 7, path: img7, pathS: img7s, },
     ]
 
+    const imgSet2 = [
+        { id: 1, path: img8, pathS: img8s, },
+        { id: 2, path: img9, pathS: img9s, },
+        { id: 3, path: img10, pathS: img10s, },
+        { id: 4, path: img11, pathS: img11s, },
+        { id: 5, path: img12, pathS: img12s, },
+        { id: 6, path: img13, pathS: img13s, },
+        { id: 7, path: img14, pathS: img14s, },
+    ]
+
     const carouselItems1 = imgSet1.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
+    const carouselItems2 = imgSet2.map(item => {
         return (
             <Carousel.Item key={item.id}>
                 <picture>
@@ -59,31 +87,11 @@ const Assistance = () => {
             <p>Firma VMARINE świadczy pełen pakiet usług związanych z eksploatacją, serwisowaniem, transportem, ubezpieczeniem i bieżąco obsługą Waszego jachtu. Dzięki bardzo dużemu doświadczeniu i rozbudowanej sieci kontaktów jesteśmy w stanie zająć się Waszą łódką zarówno w Polsce jak i na terenie całej Europy. Oferujemy profesjonalny SERWIS łodzi i jachtów motorowych, układów napędowych, naprawy pogwarancyjne, zimowanie łodzi i jachtów w hali oraz na otwartym terenie oraz TRANSPORT jednostek pływających po Polsce jaki na po całej Europie. Rozważasz instalacje nowego wyposażanie w swoim jachcie? Doradzimy i zamontujemy na Twojej jednostce sprzęt multimedialny taki jak TV, marynistyczne systemy audio, anteny satelitarne itp., klimatyzację, generator, oświetlenie podwodne, lodówki, grille i pozostałe elementy wyposażenia. W ostatnich miesiącach rozszerzyliśmy nasza ofertę o naprawy tapicerskie i szycie plandek oraz o profesjonalne oklejanie kadłuba folią w celu zabezpieczenia żelkotu lub też zmiany koloru. Od stycznia 2020 roku jako pierwsi w Polsce oferujemy oklejanie dna jachtu specjalną folią przeciwporostową, która zabezpiecza dna na okres do 5 lat bez konieczności odnawiania. </p>
             <div className="carousel">
                 <Carousel controls={false} indicators={false}>
-                    <Carousel.Item>
-                        <img src={img8} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img9} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img10} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img11} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img12} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img13} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img14} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
+                    {carouselItems2}
                 </Carousel>
             </div>
             <div className="contact">
-                <h2>Zapraszamy do kontaktu: </h2>
+                <h2>Zapraszamy do kontaktu:</h2>
                 <p>+48 692 780 074</p>
                 <p>info@vmarine.pl</p>
             </div>

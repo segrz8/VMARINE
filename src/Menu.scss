@@ -10,7 +10,7 @@
     transition: .2s;
     background-color: rgba(0, 106, 148, 0.93);
     box-shadow: inset 11px 18px 115px 25px rgba(0, 0, 0, 0.55);
-    height: 425px;
+    // height: 100%;
 
     &--active {
         right: 0;
@@ -21,10 +21,14 @@
 
         li {
             // line-height: 1.7;
-            padding: 4px;
+            padding: 3px;
             // font-weight: bold;
-            font-size: 22px;
+            font-size: 21px;
             border-bottom: 1px solid #fff;
+
+            @media(max-width: 350px) {
+                font-size: 18px;
+            }
 
             a {
                 text-decoration: none;

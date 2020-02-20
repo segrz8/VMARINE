@@ -12,7 +12,8 @@ import Fendertex from './Fendertex';
 import Rescue from './Rescue';
 import Yachts from './Yachts';
 import Cruises from './Cruises';
-import Charter from './Charter';
+import Poland from './Poland';
+import Croatia from './Croatia';
 import Assistance from './Assistance';
 import Contact from './Contact';
 import ScrollToTop from 'react-router-scroll-top';
@@ -55,7 +56,8 @@ class App extends React.Component {
 							<Route path="/rescue" component={Rescue} />
 							<Route path="/yachts" component={Yachts} />
 							<Route path="/cruises" component={Cruises} />
-							<Route path="/charter" component={Charter} />
+							<Route path="/poland" component={Poland} />
+							<Route path="/croatia" component={Croatia} />
 							<Route path="/assistance" component={Assistance} />
 							<Route path="/contact" component={Contact} />
 						</ScrollToTop>

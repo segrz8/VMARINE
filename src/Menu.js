@@ -11,13 +11,12 @@ const Menu = (props) => {
         >
             <ul>
                 <li><Link to='/'>O nas</Link></li>
-                <li><Link to='/dockmate'>Dockmate</Link></li>
-                <li><Link to='/havospark'>HavoSpark</Link></li>
-                <li><Link to='/fendertex'>Fendertex</Link></li>
-                <li><Link to='/rescue'>Rescue</Link></li>
+                <li><Link to='/dockmate'>Dockmate - bezprzewodowe systemy sterowania jachtami</Link></li>
+                <li><Link to='/havospark'>Skutery podwodne HavoSpark</Link></li>
+                <li><Link to='/fendertex'>Lekkie i wytrzymałe odbijacze Fendertex</Link></li>
+                <li><Link to='/rescue'>Rescue Ark H3 - zdalne koło ratunkowe</Link></li>
                 <li><Link to='/yachts'>Jachty na sprzedaż</Link></li>
-                <li><Link to='/cruises'>Indywidualne rejsy</Link></li>
-                <li><Link to='/charter'>Wynajem jachtów</Link></li>
+                <li><Link to='/cruises'>Indywidualne rejsy i wynajem jachtów</Link></li>
                 <li><Link to='/assistance'>Serwis i obsługa jachtów</Link></li>
                 <li><Link to='/contact'>Kontakt</Link></li>
             </ul>

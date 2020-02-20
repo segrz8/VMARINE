@@ -1,0 +1,29 @@
+.cruises {
+
+    .poland,
+    .croatia {
+        background-size: cover;
+        height: 212px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        border: 2px solid #000;
+
+        h1 {
+            font-size: 36px;
+            text-shadow: 3px 3px black;
+        }
+    }
+
+    .poland {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.1)), url('./img/POLSKA/rejsy polska (9).jpg');
+        border-bottom: none;
+    }
+
+    .croatia {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.2)), url('./img/CHORWACJA/20190428_125301.jpg');
+    }
+}

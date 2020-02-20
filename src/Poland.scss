@@ -1,0 +1,24 @@
+.poland {
+    .logo {
+        img {
+            width: 95%;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+    }
+
+    .carousel {
+        margin-bottom: 15px;
+    }
+
+    ul {
+        // list-style-type: circle;
+        text-align: left;
+        margin-left: 25px;
+        margin-right: 3px;
+
+        li {
+            font-size: 14px;
+        }
+    }
+}
