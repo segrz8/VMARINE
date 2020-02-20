@@ -2,10 +2,14 @@ import React from 'react'
 import './Header.scss';
 
 import logoVmarine from './img/logo-vmarine.jpg'
+import long from './img/glowna/main (13).jpg'
 
 const Header = () => {
     return (
-        <img className='vmarine-logo' src={logoVmarine} alt="VMARINE logo" />
+        <div className="header">
+            <img className='vmarine-logo' src={logoVmarine} alt="VMARINE logo" />
+            <img className='boats' src={long} alt="boats" />
+        </div>
     )
 }
 
