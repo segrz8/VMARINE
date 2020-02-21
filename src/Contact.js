@@ -17,7 +17,9 @@ const Contact = () => {
                 <p>Literacka 38, 05 – 220 Zielonka</p>
                 <p>NIP: 125-125-70-91</p>
             </div>
-            <img src={img1} alt="" />
+            <div>
+                <img src={img1} alt="" />
+            </div>
         </div>
     )
 }

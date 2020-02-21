@@ -1,8 +1,6 @@
 .menu {
     text-transform: uppercase;
     border: 2px solid rgb(194, 194, 194);
-    // position: sticky;
-    // top: 38px;
     position: fixed;
     right: -110vw;
     width: 100vw;
@@ -14,6 +12,10 @@
 
     @media (orientation: landscape) {
         top: 0;
+    }
+
+    @media(min-width:1024px) {
+        width: 50%;
     }
 
     &--active {
@@ -36,6 +38,10 @@
 
             @media (orientation: landscape) {
                 font-size: 17px;
+            }
+
+            @media(min-width: 1024px) {
+                font-size: 24px;
             }
 
             a {

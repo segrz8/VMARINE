@@ -6,4 +6,21 @@
     h2 {
         margin-top: 22px;
     }
+
+    @media(min-width: 1024px) {
+        display: flex;
+
+        .contact {
+            flex-basis: 33%;
+        }
+
+        div {
+            flex-basis: 67%;
+
+            img {
+                object-fit: cover;
+                height: 413px;
+            }
+        }
+    }
 }
