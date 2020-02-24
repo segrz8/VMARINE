@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8357d595fb282e7e36a01841c9d2c747",
+    "revision": "c30679a348e612c9ca5e126dc65b9ffd",
     "url": "/VMARINE/index.html"
   },
   {
-    "revision": "c59d739546095d39d2b4",
+    "revision": "30d8b807a2502bb03908",
     "url": "/VMARINE/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "5c9d2c9f0d0636addc41",
-    "url": "/VMARINE/static/css/main.bd7bbc3e.chunk.css"
+    "revision": "a23af28dd8000b72ee83",
+    "url": "/VMARINE/static/css/main.ab5525e2.chunk.css"
   },
   {
-    "revision": "c59d739546095d39d2b4",
-    "url": "/VMARINE/static/js/2.013ab54a.chunk.js"
+    "revision": "30d8b807a2502bb03908",
+    "url": "/VMARINE/static/js/2.5f90e2b4.chunk.js"
   },
   {
     "revision": "bf23039b4e70a07c5aeb1b4010df3572",
-    "url": "/VMARINE/static/js/2.013ab54a.chunk.js.LICENSE.txt"
+    "url": "/VMARINE/static/js/2.5f90e2b4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5c9d2c9f0d0636addc41",
-    "url": "/VMARINE/static/js/main.cd4b0d83.chunk.js"
+    "revision": "a23af28dd8000b72ee83",
+    "url": "/VMARINE/static/js/main.03e9332e.chunk.js"
   },
   {
     "revision": "4c1934d81c52e8db83c8",
@@ -284,8 +284,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VMARINE/static/media/H2-7.790bd509.jpg"
   },
   {
-    "revision": "12551194ab5db747a385eebd88b52b68",
-    "url": "/VMARINE/static/media/Havospark logo(1).12551194.jpg"
+    "revision": "d9e4feb69af3c9a1262903e35216841b",
+    "url": "/VMARINE/static/media/Havospark logo(1).d9e4feb6.jpg"
   },
   {
     "revision": "c9313a1a3273d02ff6fb18ccb6195d87",
@@ -426,6 +426,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cd8d02e673208ef4635fea51ef4ceec4",
     "url": "/VMARINE/static/media/main (12).cd8d02e6.jpg"
+  },
+  {
+    "revision": "9ae9e0b91c5c032e6201c509eded47d1",
+    "url": "/VMARINE/static/media/main (13).9ae9e0b9.jpg"
   },
   {
     "revision": "cff9877edf4ff29b184f6ea23b10385b",

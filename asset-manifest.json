@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/VMARINE/static/css/main.bd7bbc3e.chunk.css",
-    "main.js": "/VMARINE/static/js/main.cd4b0d83.chunk.js",
-    "main.js.map": "/VMARINE/static/js/main.cd4b0d83.chunk.js.map",
+    "main.css": "/VMARINE/static/css/main.ab5525e2.chunk.css",
+    "main.js": "/VMARINE/static/js/main.03e9332e.chunk.js",
+    "main.js.map": "/VMARINE/static/js/main.03e9332e.chunk.js.map",
     "runtime-main.js": "/VMARINE/static/js/runtime-main.e9d07edb.js",
     "runtime-main.js.map": "/VMARINE/static/js/runtime-main.e9d07edb.js.map",
     "static/css/2.47e06e2e.chunk.css": "/VMARINE/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.013ab54a.chunk.js": "/VMARINE/static/js/2.013ab54a.chunk.js",
-    "static/js/2.013ab54a.chunk.js.map": "/VMARINE/static/js/2.013ab54a.chunk.js.map",
+    "static/js/2.5f90e2b4.chunk.js": "/VMARINE/static/js/2.5f90e2b4.chunk.js",
+    "static/js/2.5f90e2b4.chunk.js.map": "/VMARINE/static/js/2.5f90e2b4.chunk.js.map",
     "index.html": "/VMARINE/index.html",
-    "precache-manifest.b01dcd640546b6ced43df2f4d2469111.js": "/VMARINE/precache-manifest.b01dcd640546b6ced43df2f4d2469111.js",
+    "precache-manifest.bc8658f64b27dc626a8993b17e58c607.js": "/VMARINE/precache-manifest.bc8658f64b27dc626a8993b17e58c607.js",
     "service-worker.js": "/VMARINE/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/VMARINE/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.bd7bbc3e.chunk.css.map": "/VMARINE/static/css/main.bd7bbc3e.chunk.css.map",
-    "static/js/2.013ab54a.chunk.js.LICENSE.txt": "/VMARINE/static/js/2.013ab54a.chunk.js.LICENSE.txt",
+    "static/css/main.ab5525e2.chunk.css.map": "/VMARINE/static/css/main.ab5525e2.chunk.css.map",
+    "static/js/2.5f90e2b4.chunk.js.LICENSE.txt": "/VMARINE/static/js/2.5f90e2b4.chunk.js.LICENSE.txt",
     "static/media/002white 1 (new logo).215.png": "/VMARINE/static/media/002white 1 (new logo).215.242bcf99.png",
     "static/media/002white(new logo).213.png": "/VMARINE/static/media/002white(new logo).213.f1980fe9.png",
     "static/media/004bule(new logo).217.png": "/VMARINE/static/media/004bule(new logo).217.e34ea4d0.png",
@@ -78,7 +78,7 @@
     "static/media/H2-4.jpg": "/VMARINE/static/media/H2-4.facc5238.jpg",
     "static/media/H2-5.jpg": "/VMARINE/static/media/H2-5.2324d5cf.jpg",
     "static/media/H2-7.jpg": "/VMARINE/static/media/H2-7.790bd509.jpg",
-    "static/media/Havospark logo(1).jpg": "/VMARINE/static/media/Havospark logo(1).12551194.jpg",
+    "static/media/Havospark logo(1).jpg": "/VMARINE/static/media/Havospark logo(1).d9e4feb6.jpg",
     "static/media/JM1.png": "/VMARINE/static/media/JM1.c9313a1a.png",
     "static/media/JM2.png": "/VMARINE/static/media/JM2.6e481d85.png",
     "static/media/JM3.jpg": "/VMARINE/static/media/JM3.8142b3f1.jpg",
@@ -114,6 +114,7 @@
     "static/media/main (10).JPG": "/VMARINE/static/media/main (10).598b76ef.JPG",
     "static/media/main (11).jpg": "/VMARINE/static/media/main (11).8c1bccd0.jpg",
     "static/media/main (12).jpg": "/VMARINE/static/media/main (12).cd8d02e6.jpg",
+    "static/media/main (13).jpg": "/VMARINE/static/media/main (13).9ae9e0b9.jpg",
     "static/media/main (2).jpg": "/VMARINE/static/media/main (2).cff9877e.jpg",
     "static/media/main (3).jpg": "/VMARINE/static/media/main (3).a4495e22.jpg",
     "static/media/main (4).jpg": "/VMARINE/static/media/main (4).5c3e0e3b.jpg",
@@ -138,8 +139,8 @@
   "entrypoints": [
     "static/js/runtime-main.e9d07edb.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.013ab54a.chunk.js",
-    "static/css/main.bd7bbc3e.chunk.css",
-    "static/js/main.cd4b0d83.chunk.js"
+    "static/js/2.5f90e2b4.chunk.js",
+    "static/css/main.ab5525e2.chunk.css",
+    "static/js/main.03e9332e.chunk.js"
   ]
 }
