@@ -10,43 +10,11 @@
         padding: 5px 3px;
     }
 
-    .flex1 {
-        @media(min-width: 1024px) {
-            display: flex;
-            margin: 0 80px;
-            height: 300px;
-
-            div {
-                flex-basis: 50%;
-
-                img {
-                    height: 300px;
-                }
-            }
-
-            .text1 {
-                padding: 15px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-            }
-
-            .orderCarousel {
-                order: 2;
-            }
-
-            .orderText {
-                order: 1;
-            }
-        }
-    }
-
     .aboveContact {
         display: none;
     }
 
-    .contact {
-        margin-top: 42px;
-    }
+    // .contact {
+    //     margin-top: 42px;
+    // }
 }

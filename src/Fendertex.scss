@@ -4,6 +4,11 @@
         img {
             width: 95%;
             margin-bottom: 15px;
+
+            @media(min-width:1024px) {
+                width: 800px;
+                margin-bottom: 60px;
+            }
         }
     }
 
@@ -27,6 +32,15 @@
 
         li {
             font-size: 14px;
+
+            @media(min-width:1024px) {
+                font-size: 16px;
+            }
+
         }
+    }
+
+    .flex1 {
+        margin-bottom: 30px;
     }
 }

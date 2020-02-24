@@ -9,14 +9,19 @@
     background-color: #fff;
 
     @media(min-width: 1024px) {
-        margin-left: 95vw;
+        margin-left: calc(100% - 80px);
+        width: 80px;
+        // margin-bottom: 38px;
     }
 
     i {
-        cursor: pointer;
+        @media(min-width: 1024px) {
+            cursor: pointer;
+            line-height: 80px;
+        }
 
         // &:hover {
-    //     color: rgb(12, 89, 119);
-    // }
+        //     color: rgb(12, 89, 119);
+        // }
     }
 }

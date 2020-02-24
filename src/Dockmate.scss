@@ -7,6 +7,10 @@
         img {
             width: 95%;
             margin-bottom: 15px;
+
+            @media(min-width: 1024px) {
+                object-fit: contain;
+            }
         }
     }
 
@@ -14,6 +18,10 @@
         img {
             width: 100%;
             margin-bottom: 15px;
+
+            @media(min-width: 1024px) {
+                object-fit: contain;
+            }
         }
     }
 
@@ -32,6 +40,11 @@
 
         li {
             font-size: 14px;
+
+            @media(min-width: 1024px) {
+                font-size: 16px;
+                margin-left: 80px;
+            }
         }
     }
 
@@ -50,6 +63,36 @@
 
         div {
             flex-grow: 1;
+
+            a {
+                background-color: rgb(44, 104, 214);
+                padding: 5px 35px;
+                color: white;
+                text-decoration: none;
+
+                &:hover {
+                    background-color: rgb(62, 122, 235);
+                }
+            }
+        }
+    }
+
+    .contain {
+        @media(min-width: 1024px) {
+            object-fit: contain;
+        }
+    }
+
+    .h2overUl {
+        @media(min-width: 1024px) {
+            text-align: left;
+            margin: 80px 80px 0;
+        }
+    }
+
+    .margins {
+        @media(min-width: 1024px) {
+            margin: 80px;
         }
     }
 }

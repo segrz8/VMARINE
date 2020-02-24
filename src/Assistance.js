@@ -78,18 +78,26 @@ const Assistance = () => {
 
     return (
         <div className="assistance">
-            <h1>VMARINE – All About Yachts</h1>
-            <div className="carousel">
-                <Carousel controls={false} indicators={false}>
-                    {carouselItems1}
-                </Carousel>
+            <div className="flex1">
+                <div className="carousel">
+                    <Carousel controls={false} indicators={false}>
+                        {carouselItems1}
+                    </Carousel>
+                </div>
+                <div className="text1">
+                    <h1>VMARINE – All About Yachts</h1>
+                    <p>Firma VMARINE świadczy pełen pakiet usług związanych z eksploatacją, serwisowaniem, transportem, ubezpieczeniem i bieżąco obsługą Waszego jachtu. Dzięki bardzo dużemu doświadczeniu i rozbudowanej sieci kontaktów jesteśmy w stanie zająć się Waszą łódką zarówno w Polsce jak i na terenie całej Europy. Oferujemy profesjonalny <span className="bold">SERWIS</span> łodzi i jachtów motorowych, układów napędowych, naprawy pogwarancyjne, zimowanie łodzi i jachtów w hali oraz na otwartym terenie oraz <span className="bold">TRANSPORT</span> jednostek pływających po Polsce jaki na po całej Europie.</p>
+                </div>
             </div>
-            <p>Firma VMARINE świadczy pełen pakiet usług związanych z eksploatacją, serwisowaniem, transportem, ubezpieczeniem i bieżąco obsługą Waszego jachtu. Dzięki bardzo dużemu doświadczeniu i rozbudowanej sieci kontaktów jesteśmy w stanie zająć się Waszą łódką zarówno w Polsce jak i na terenie całej Europy. Oferujemy profesjonalny <span className="bold">SERWIS</span> łodzi i jachtów motorowych, układów napędowych, naprawy pogwarancyjne, zimowanie łodzi i jachtów w hali oraz na otwartym terenie oraz <span className="bold">TRANSPORT</span> jednostek pływających po Polsce jaki na po całej Europie.</p>
-            <p> Rozważasz instalacje nowego wyposażanie w swoim jachcie? Doradzimy i zamontujemy na Twojej jednostce sprzęt multimedialny taki jak TV, marynistyczne systemy audio, anteny satelitarne itp., klimatyzację, generator, oświetlenie podwodne, lodówki, grille i pozostałe elementy wyposażenia. W ostatnich miesiącach rozszerzyliśmy nasza ofertę o naprawy tapicerskie i szycie plandek oraz o profesjonalne oklejanie kadłuba folią w celu zabezpieczenia żelkotu lub też zmiany koloru. Od stycznia 2020 roku jako pierwsi w Polsce oferujemy oklejanie dna jachtu specjalną folią przeciwporostową, która zabezpiecza dna na okres do 5 lat bez konieczności odnawiania. </p>
-            <div className="carousel">
-                <Carousel controls={false} indicators={false}>
-                    {carouselItems2}
-                </Carousel>
+            <div className="flex1">
+                <div className="text1">
+                    <p> Rozważasz instalacje nowego wyposażanie w swoim jachcie? Doradzimy i zamontujemy na Twojej jednostce sprzęt multimedialny taki jak TV, marynistyczne systemy audio, anteny satelitarne itp., klimatyzację, generator, oświetlenie podwodne, lodówki, grille i pozostałe elementy wyposażenia. W ostatnich miesiącach rozszerzyliśmy nasza ofertę o naprawy tapicerskie i szycie plandek oraz o profesjonalne oklejanie kadłuba folią w celu zabezpieczenia żelkotu lub też zmiany koloru. Od stycznia 2020 roku jako pierwsi w Polsce oferujemy oklejanie dna jachtu specjalną folią przeciwporostową, która zabezpiecza dna na okres do 5 lat bez konieczności odnawiania. </p>
+                </div>
+                <div className="carousel">
+                    <Carousel controls={false} indicators={false}>
+                        {carouselItems2}
+                    </Carousel>
+                </div>
             </div>
             <div className="contact">
                 <h2>Zapraszamy do kontaktu:</h2>

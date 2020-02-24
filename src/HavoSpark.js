@@ -31,78 +31,96 @@ const HavoSpark = () => {
         <div className="havospark">
             <h1>VMARINE – All About Yachts</h1>
             <p>Wyłączny dealer skuterów Havospark Aquajet w Polsce</p>
-            <div className="logo">
-                <img src={logo} alt="havospark logo" />
-            </div>
-            <p>AquaJet Dive H2 to zdobywający niebywałą popularność na całym świecie skuter podwodny przeznaczony do rekreacji, nurkowania i aktywnego spędzenia czasu na i pod wodą.
+            <div className="flex1">
+                <div className="logo">
+                    <img src={logo} alt="havospark logo" />
+                </div>
+                <div className="text1">
+                    <p>AquaJet Dive H2 to zdobywający niebywałą popularność na całym świecie skuter podwodny przeznaczony do rekreacji, nurkowania i aktywnego spędzenia czasu na i pod wodą.
 Skuter łączy w sobie nowoczesną technologię i inteligentny design gwarantujące wspaniałą i bezpieczną zabawę. Hydrodynamiczny kształt skrzydeł zapewnia doskonała sterowność i maksymalną prędkość pod wodą przekraczająca 12 km/h.</p>
-            <div className="carousel">
-                <Carousel controls={false} indicators={false}>
-                    <Carousel.Item>
-                        <img src={img1} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img2} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img3} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img4} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img5} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                </Carousel>
+                </div>
             </div>
-            <p>Havo Spark AquaJet Dive H2 przeznaczony jest dla wszystkich osób chcących aktywnie spędzać czas w wodzie. Dla nurków, pływaków, freediverów jak i wszystkich amatorów wodnych zabaw. Obsługa urządzenia odbywa się wyłącznie za pomocą dwóch przycisków. Jeden uruchamia urządzenie, a drugi pozwala na regulację prędkości pomiędzy trzema biegami. Sterowanie na boki, do góry i w dół odbywa się dzięki ruchom ciała przez co obsługa urządzenia jest bardzo prosta i intuicyjna. Dzięki dużej wyporności urządzenie samo utrzymuje się na wodzie i pozwala bardzo szybko wynurzyć się na powierzchnię. </p>
-            <div className="havo">
-                <img src={img6} alt="" />
+            <div className="flex1">
+                <div className="carousel orderCarousel">
+                    <Carousel controls={false} indicators={false}>
+                        <Carousel.Item>
+                            <img src={img1} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img2} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img3} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img4} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img5} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
+                <div className="text1">
+                    <p>Havo Spark AquaJet Dive H2 przeznaczony jest dla wszystkich osób chcących aktywnie spędzać czas w wodzie. Dla nurków, pływaków, freediverów jak i wszystkich amatorów wodnych zabaw. Obsługa urządzenia odbywa się wyłącznie za pomocą dwóch przycisków. Jeden uruchamia urządzenie, a drugi pozwala na regulację prędkości pomiędzy trzema biegami. Sterowanie na boki, do góry i w dół odbywa się dzięki ruchom ciała przez co obsługa urządzenia jest bardzo prosta i intuicyjna. Dzięki dużej wyporności urządzenie samo utrzymuje się na wodzie i pozwala bardzo szybko wynurzyć się na powierzchnię.</p>
+                </div>
             </div>
-            <div className="havo">
-                <img src={img7} alt="" />
+            <div className="two">
+                <div className="havo">
+                    <img src={img6} alt="" />
+                </div>
+                <div className="havo">
+                    <img src={img7} alt="" />
+                </div>
             </div>
-            <div className="carousel">
-                <Carousel controls={false} indicators={false}>
-                    <Carousel.Item>
-                        <img src={img8} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img9} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img10} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                </Carousel>
+            <div className="flex1">
+                <div className="carousel contain">
+                    <Carousel controls={false} indicators={false}>
+                        <Carousel.Item>
+                            <img src={img8} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img9} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img10} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
+                <div className="text1">
+                    <p>Projekt skutera AquaJet Dive H2  powstał na bazie projektów samolotów i dzięki opatentowanym skrzydłom skuter ma bardzo dobry balans, stabilność i jest bardzo sterowny.</p>
+                </div>
             </div>
-            <p>Projekt skutera AquaJet Dive H2  powstał na bazie projektów samolotów i dzięki opatentowanym skrzydłom skuter ma bardzo dobry balans, stabilność i jest bardzo sterowny.</p>
-            <div className="carousel">
-                <Carousel controls={false} indicators={false}>
-                    <Carousel.Item>
-                        <img src={img11} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img12} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img13} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img14} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img15} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img16} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img17} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                </Carousel>
+            <div className="flex1">
+                <div className="carousel orderCarousel">
+                    <Carousel controls={false} indicators={false}>
+                        <Carousel.Item>
+                            <img src={img11} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img12} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img13} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img14} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img15} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img16} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img17} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
+                <div className="text1">
+                    <p>Dzięki zamontowanemu uchwytowi na aparat, nagrywanie filmów i robienie zdjęć pod wodą jeszcze nigdy nie było tak łatwe i wygodne.</p>
+                </div>
             </div>
-            <p>Dzięki zamontowanemu uchwytowi na aparat, nagrywanie filmów i robienie zdjęć pod wodą jeszcze nigdy nie było tak łatwe i wygodne. </p>
-            <div className="logo">
+            <div className="logo hoverstar">
                 <img src={logo2} alt="hoverstar logo" />
             </div>
             <div className="contact">

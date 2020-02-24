@@ -1,13 +1,31 @@
 .croatia {
     .logo {
+        @media(min-width: 1024px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
         img {
             width: 95%;
             margin-bottom: 15px;
             margin-top: 15px;
+
+            @media(min-width: 1024px) {
+                object-fit: contain;
+            }
         }
     }
 
     .carousel {
         margin-bottom: 15px;
     }
+
+    // .flex1 {
+    //     &:nth-child(odd) {
+    //         background-color: rgb(227, 242, 255);
+    //         margin: 0;
+    //         padding: 0 80px;
+    //     }
+    // }
 }

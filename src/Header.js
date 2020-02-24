@@ -7,8 +7,12 @@ import long from './img/glowna/main (13).jpg'
 const Header = () => {
     return (
         <div className="header">
-            <img className='vmarine-logo' src={logoVmarine} alt="VMARINE logo" />
+            <div className="vmarine-logo">
+                <img src={logoVmarine} alt="VMARINE logo" />
+            </div>
             <img className='boats' src={long} alt="boats" />
+            <div className="rect"></div>
+            <div className="rect2"></div>
         </div>
     )
 }

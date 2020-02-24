@@ -48,71 +48,79 @@ const Fendertex = () => {
             <div className="logo">
                 <img src={logo} alt="fendertex logo" />
             </div>
-            <p>Fendertex to jedyne na rynku ultralekkie odbijacze, o podwyższone wytrzymałości, które mogą być indywidualnie dopasowane do twojego jachtu. Dzięki zaawansowanym badaniom firmie Fendertex udało się opatentować specjalny materiał dzięki któremu odbijacze Fendertex są 10 razy bardziej wytrzymałe na nacisk w porównaniu do standardowych odbijaczy, a ich waga jest 95% niższa od standardowych odbijaczy z PCV. Nowoczesna konstrukcja pozwala na bardzo łatwe pompowanie i spuszczenia powietrza z odbijaczy dzięki czemu można oszczędzić dużo miejsca dedykowanego na składowanie standardowych odbijaczy. Dzięki możliwości pełnej personalizacji odbijaczy i ich ochraniaczy, możesz dopasować kolor jak i grafikę idealnie pod swój jacht.</p>
-            {/* <div className="carousel">
+            <div className="flex1">
+                <div className="text1">
+                    <p>Fendertex to jedyne na rynku ultralekkie odbijacze, o podwyższone wytrzymałości, które mogą być indywidualnie dopasowane do twojego jachtu. Dzięki zaawansowanym badaniom firmie Fendertex udało się opatentować specjalny materiał dzięki któremu odbijacze Fendertex są 10 razy bardziej wytrzymałe na nacisk w porównaniu do standardowych odbijaczy, a ich waga jest 95% niższa od standardowych odbijaczy z PCV. Nowoczesna konstrukcja pozwala na bardzo łatwe pompowanie i spuszczenia powietrza z odbijaczy dzięki czemu można oszczędzić dużo miejsca dedykowanego na składowanie standardowych odbijaczy. Dzięki możliwości pełnej personalizacji odbijaczy i ich ochraniaczy, możesz dopasować kolor jak i grafikę idealnie pod swój jacht.</p>
+                </div>
+                {/* <div className="carousel">
                 <Carousel controls={false} indicators={false}>
                     {carouselItems1}
                 </Carousel>
             </div> */}
-            <div className="carousel">
-                <Carousel controls={false} indicators={false}>
-                    <Carousel.Item>
-                        <img src={img1} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img2} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img3} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img4} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img5} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img6} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img7} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img12} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img13} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                </Carousel>
+                <div className="carousel">
+                    <Carousel controls={false} indicators={false}>
+                        <Carousel.Item>
+                            <img src={img1} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img2} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img3} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img4} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img5} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img6} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img7} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img12} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img13} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
             </div>
-            <h2>Zalety odbijaczy Fendertex:</h2>
-            <ul>
-                <li>najlżejsze odbijacze na świecie</li>
-                <li>zewnętrzna warstwa zrobiona z jednego kawałka opatentowanego materiału</li>
-                <li>łatwość pompowania i spuszczania powietrza co oszczędza miejsca podczas składowania</li>
-                <li>bardzo wysoka wytrzymałość na naprężenia</li>
-                <li>zachowanie właściwości i kształtu w szerokiej skali temperatury</li>
-                <li>dostępne w trzech kształtach i dziewięciu standardowych kolorach</li>
-                <li>specjalne kolory, rozmiary i grafiki dostępne na zamówienie</li>
-                <li>szeroka paleta akcesoriów jak ochraniacze, osłony metalowych uchwytów, liny, pompki i grafiki</li>
-                <li>wydajne pompki do łatwego pompowania i wypuszczania powietrza</li>
-                <li>możliwość wyszycia logo lub nazwy jachty na ochraniaczach</li>
-            </ul>
-            <div className="carousel contain">
-                <Carousel controls={false} indicators={false}>
-                    <Carousel.Item>
-                        <img src={img8} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img9} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img10} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img11} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                </Carousel>
+            <div className="flex1">
+                <div className="text1 orderText">
+                    <h2>Zalety odbijaczy Fendertex:</h2>
+                    <ul>
+                        <li>najlżejsze odbijacze na świecie</li>
+                        <li>zewnętrzna warstwa zrobiona z jednego kawałka opatentowanego materiału</li>
+                        <li>łatwość pompowania i spuszczania powietrza co oszczędza miejsca podczas składowania</li>
+                        <li>bardzo wysoka wytrzymałość na naprężenia</li>
+                        <li>zachowanie właściwości i kształtu w szerokiej skali temperatury</li>
+                        <li>dostępne w trzech kształtach i dziewięciu standardowych kolorach</li>
+                        <li>specjalne kolory, rozmiary i grafiki dostępne na zamówienie</li>
+                        <li>szeroka paleta akcesoriów jak ochraniacze, osłony metalowych uchwytów, liny, pompki i grafiki</li>
+                        <li>wydajne pompki do łatwego pompowania i wypuszczania powietrza</li>
+                        <li>możliwość wyszycia logo lub nazwy jachty na ochraniaczach</li>
+                    </ul>
+                </div>
+                <div className="carousel contain">
+                    <Carousel controls={false} indicators={false}>
+                        <Carousel.Item>
+                            <img src={img8} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img9} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img10} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img11} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
             </div>
             <div className="contact">
                 <h2>Kontakt:</h2>
