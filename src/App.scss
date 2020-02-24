@@ -103,6 +103,12 @@ p {
             @media(min-width: 1024px) and (max-width: 1199px) {
                 font-size: 14px;
             }
+
+            li {
+                @media(min-width: 1024px) and (max-width: 1199px) {
+                    font-size: 14px;
+                }
+            }
         }
 
         .orderCarousel {
