@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/VMARINE/static/css/main.6c6b74b4.chunk.css",
-    "main.js": "/VMARINE/static/js/main.03e9332e.chunk.js",
-    "main.js.map": "/VMARINE/static/js/main.03e9332e.chunk.js.map",
+    "main.css": "/VMARINE/static/css/main.4720c46f.chunk.css",
+    "main.js": "/VMARINE/static/js/main.341a5a09.chunk.js",
+    "main.js.map": "/VMARINE/static/js/main.341a5a09.chunk.js.map",
     "runtime-main.js": "/VMARINE/static/js/runtime-main.e9d07edb.js",
     "runtime-main.js.map": "/VMARINE/static/js/runtime-main.e9d07edb.js.map",
     "static/css/2.47e06e2e.chunk.css": "/VMARINE/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.5f90e2b4.chunk.js": "/VMARINE/static/js/2.5f90e2b4.chunk.js",
-    "static/js/2.5f90e2b4.chunk.js.map": "/VMARINE/static/js/2.5f90e2b4.chunk.js.map",
+    "static/js/2.378d69a5.chunk.js": "/VMARINE/static/js/2.378d69a5.chunk.js",
+    "static/js/2.378d69a5.chunk.js.map": "/VMARINE/static/js/2.378d69a5.chunk.js.map",
     "index.html": "/VMARINE/index.html",
-    "precache-manifest.7d03b1e5d0524c37aae950449071d518.js": "/VMARINE/precache-manifest.7d03b1e5d0524c37aae950449071d518.js",
+    "precache-manifest.b2e46ef691c9722687b3cfc73794de9d.js": "/VMARINE/precache-manifest.b2e46ef691c9722687b3cfc73794de9d.js",
     "service-worker.js": "/VMARINE/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/VMARINE/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.6c6b74b4.chunk.css.map": "/VMARINE/static/css/main.6c6b74b4.chunk.css.map",
-    "static/js/2.5f90e2b4.chunk.js.LICENSE.txt": "/VMARINE/static/js/2.5f90e2b4.chunk.js.LICENSE.txt",
+    "static/css/main.4720c46f.chunk.css.map": "/VMARINE/static/css/main.4720c46f.chunk.css.map",
+    "static/js/2.378d69a5.chunk.js.LICENSE.txt": "/VMARINE/static/js/2.378d69a5.chunk.js.LICENSE.txt",
     "static/media/002white 1 (new logo).215.png": "/VMARINE/static/media/002white 1 (new logo).215.242bcf99.png",
     "static/media/002white(new logo).213.png": "/VMARINE/static/media/002white(new logo).213.f1980fe9.png",
     "static/media/004bule(new logo).217.png": "/VMARINE/static/media/004bule(new logo).217.e34ea4d0.png",
@@ -53,7 +53,7 @@
     "static/media/20190329_122146s.jpg": "/VMARINE/static/media/20190329_122146s.b8a99610.jpg",
     "static/media/20190403_165826.jpg": "/VMARINE/static/media/20190403_165826.fc251445.jpg",
     "static/media/20190403_165826s.jpg": "/VMARINE/static/media/20190403_165826s.1eda7b07.jpg",
-    "static/media/Cruises.scss": "/VMARINE/static/media/rejsy polska (9).60ccde80.jpg",
+    "static/media/Cruises.scss": "/VMARINE/static/media/rejsy polska (9).d39e087e.jpg",
     "static/media/20190625_121948.jpg": "/VMARINE/static/media/20190625_121948.87217908.jpg",
     "static/media/20190904_090542.jpg": "/VMARINE/static/media/20190904_090542.d6d96424.jpg",
     "static/media/20190904_090542s.jpg": "/VMARINE/static/media/20190904_090542s.9096f125.jpg",
@@ -133,14 +133,16 @@
     "static/media/rejsy polska (6).jpg": "/VMARINE/static/media/rejsy polska (6).fbede36d.jpg",
     "static/media/rejsy polska (7).jpg": "/VMARINE/static/media/rejsy polska (7).e71035bc.jpg",
     "static/media/rejsy polska (8).jpg": "/VMARINE/static/media/rejsy polska (8).799e9c16.jpg",
+    "static/media/ulotka1.jpg": "/VMARINE/static/media/ulotka1.72793b99.jpg",
+    "static/media/ulotka2.jpg": "/VMARINE/static/media/ulotka2.e2fa7486.jpg",
     "static/media/xca309866dcc6f99e9d0aefd47137ff73ff996427_slider-textile-fenders-fendertex.jpg.pagespeed.ic.PM_JYoJ14M.jpg": "/VMARINE/static/media/xca309866dcc6f99e9d0aefd47137ff73ff996427_slider-textile-fenders-fendertex.jpg.pagespeed.ic.PM_JYoJ14M.3ccfc962.jpg",
     "static/media/xf1c21f5d7793b00c2a353fc4f73a917d7bba02fe_pare-battages-cylindrique-gris-fendertex-slider.jpg.pagespeed.ic.mqjCHqfQeL.jpg": "/VMARINE/static/media/xf1c21f5d7793b00c2a353fc4f73a917d7bba02fe_pare-battages-cylindrique-gris-fendertex-slider.jpg.pagespeed.ic.mqjCHqfQeL.9aa8c21e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e9d07edb.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.5f90e2b4.chunk.js",
-    "static/css/main.6c6b74b4.chunk.css",
-    "static/js/main.03e9332e.chunk.js"
+    "static/js/2.378d69a5.chunk.js",
+    "static/css/main.4720c46f.chunk.css",
+    "static/js/main.341a5a09.chunk.js"
   ]
 }
