@@ -1,4 +1,8 @@
 .poland {
+    h1 {
+        text-align: center;
+    }
+
     .logo {
         @media(min-width: 1024px) {
             display: flex;
@@ -34,5 +38,9 @@
                 font-size: 16px;
             }
         }
+    }
+
+    .contact {
+        margin-top: 80px;
     }
 }
