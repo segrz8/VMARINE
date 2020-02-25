@@ -29,7 +29,7 @@ const Dockmate = () => {
                     <img src={logo} alt="dockmate logo" />
                 </div>
                 <div className="text1">
-                    <p>Zapraszam do zakupu bezprzewodowego systemu sterowania do Waszej łodzi lub jachtu. System dockmate pozwala na bezprzewodowe sterowanie silnikami (biegi lub biegi plus przepustnica), sterami strumieniowymi, klaksonem oraz wciągarkami kotwicy dzięki czemu operowanie jachtem staje się dużo łatwiejsze i wygodniejsze. Dzięki systemowi dockmate jesteś w stanie manewrować jachtem za pomocą pilota z każdego miejsca na pokładzie co znacząco ułatwia manewry w porcie i pozwala na samodzielne, bezpieczne cumowanie nawet większych jednostek. Jest to też niebywałe ułatwienie dla osób które pływają same lub też z mało doświadczonymi pasażerami.</p>
+                    <p>System dockmate pozwala na bezprzewodowe sterowanie silnikami (biegi lub biegi plus przepustnica), sterami strumieniowymi, klaksonem oraz wciągarkami kotwicy dzięki czemu operowanie jachtem staje się dużo łatwiejsze i wygodniejsze. Dzięki systemowi dockmate jesteś w stanie manewrować jachtem za pomocą pilota z każdego miejsca na pokładzie co znacząco ułatwia manewry w porcie i pozwala na samodzielne, bezpieczne cumowanie nawet większych jednostek. Jest to też niebywałe ułatwienie dla osób które pływają same lub też z mało doświadczonymi pasażerami.</p>
                 </div>
             </div>
             <div className="flex1">
