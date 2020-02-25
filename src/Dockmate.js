@@ -22,8 +22,10 @@ import img11 from './img/dockmate foto/JM2.png';
 const Dockmate = () => {
     return (
         <div className="dockmate">
-            <h1>VMARINE</h1>
-            <p>Wyłączny importer i dystrybutor systemów bezprzewodowego sterowania łodziami i jachtami <span className="bold">dockmate</span></p>
+            <div className="heading">
+                <h1>VMARINE</h1>
+                <p>Wyłączny importer i dystrybutor systemów bezprzewodowego sterowania łodziami i jachtami <span className="bold">dockmate</span></p>
+            </div>
             <div className="flex1">
                 <div className="logo">
                     <img src={logo} alt="dockmate logo" />
@@ -135,39 +137,25 @@ Cały system jest produkcji belgijskiej, wykonany w UE, sprzedawany z 24 miesię
                     </Carousel>
                 </div>
                 <div className="text1">
-                    <h2>System dockmate dostępny jest w trzech wersjach:</h2>
-                    <ol>
-                        <li>SINGLE – pilot z przyciskami dla systemów z jednym silnikiem od <span className="bold">2 850 Euro netto + 23% VAT</span></li>
-                        <li>TWIN – pilot z przyciskami dla systemów z dwoma silnikami od <span className="bold">3 500 Euro netto + 23% VAT</span></li>
-                        <li>TWIST – pilot z joystickiem dla systemów z jednym lub dwoma silnikami od <span className="bold">4 950 Euro netto + 23% VAT</span></li>
-                    </ol>
-                </div>
-            </div>
-            <div className="margins">
-                <h2>Cena systemu wyliczana jest indywidualnie dla danego jachtu po zapoznaniu się z dokładną specyfikacją!</h2>
-                <p>Cena podstawowa pokazana powyżej zawiera standardowy zestaw składający się z bezprzewodowego pilota wraz ze smyczą, bezprzewodowej ładowarki (TWIST) lub pilota zasilanego bateriami (SINGLE I TWIN) jednostki centralnej z odbiornikiem, modułu radiowego z anteną, modułu silnikowego (1 lub 2) w zależności od specyfikacji, modułu klaksonu oraz standardowego okablowania. Do ceny doliczyć trzeba koszt interfejsu CAN (np. IPS lub Aquamatic) lub modułów automatycznej kontroli obrotów (Mercury, Mercuiser, Cummins), dodatkowych modułów do sterów strumieniowych (standard, proporcjonalne lub dwubiegowe), modułu wciągarki kotwicy oraz okablowania dla danej instalacji które dobierane są <span className="bold">indywidualnie po zapoznaniu się ze specyfikacją i wyposażeniem jachtu.</span></p>
-                <p>Cena nie zawiera montażu systemu w twojej łodzi. Dokładna wycena kompletacji systemu dobranego indywidualnie dla Twojego jachtu wymaga szczegółowej konsultacji!</p>
-            </div>
-            <div className="flex1">
-                <div className="logo">
-                    <img src={logo2} alt="dockmate logo" />
-                </div>
-                <div className="text1">
-                    <p>A tu można obejrzeć jak system działa w praktyce:</p>
+                    <h2>A tu można obejrzeć jak system działa w praktyce:</h2>
                     <div className="links">
                         <div className="link1">
-                            <p><a href="https://www.youtube.com/watch?v=7aPtkFAu9mM">Film 1</a></p>
+                            <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=7aPtkFAu9mM">Film 1</a></p>
                         </div>
                         <div className="link2">
-                            <p><a href="https://www.youtube.com/watch?v=NifLksythQQ">Film 2</a></p>
+                            <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=NifLksythQQ">Film 2</a></p>
                         </div>
                     </div>
                 </div>
             </div>
+            <div className="logo dockmateLogoBelow">
+                <img src={logo2} alt="dockmate logo" />
+            </div>
             <div className="contact">
-                <h2>Zapraszam do kontaktu:</h2>
-                <p>Tomasz KUMOR</p>
+                <h2>Kontakt:</h2>
                 <p>+48 692 780 074</p>
+                <p>info@vmarine.pl</p>
+                <p class="facebook"><a href="www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i> Facebook</a></p>
             </div>
         </div>
     )

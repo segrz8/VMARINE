@@ -26,11 +26,16 @@ import img15 from './img/aquajet foto/Photos - Average Quality/1 (42).jpg';
 import img16 from './img/aquajet foto/Photos - Average Quality/1 (45).jpg';
 import img17 from './img/aquajet foto/Photos - Average Quality/1 (62).jpg';
 
+import img18 from './img/aquajet foto/ulotka1.jpg';
+import img19 from './img/aquajet foto/ulotka2.jpg';
+
 const HavoSpark = () => {
     return (
         <div className="havospark">
-            <h1>VMARINE – All About Yachts</h1>
-            <p>Wyłączny dealer skuterów Havospark Aquajet w Polsce</p>
+            <div className="heading">
+                <h1>VMARINE – All About Yachts</h1>
+                <p>Wyłączny dealer skuterów Havospark Aquajet w Polsce</p>
+            </div>
             <div className="flex1">
                 <div className="logo">
                     <img src={logo} alt="havospark logo" />
@@ -120,13 +125,35 @@ Skuter łączy w sobie nowoczesną technologię i inteligentny design gwarantuj�
                     <p>Dzięki zamontowanemu uchwytowi na aparat, nagrywanie filmów i robienie zdjęć pod wodą jeszcze nigdy nie było tak łatwe i wygodne.</p>
                 </div>
             </div>
-            <div className="logo hoverstar">
-                <img src={logo2} alt="hoverstar logo" />
+            <div className="flyers">
+                <div className="flyer">
+                    <img src={img18} alt="flyer" />
+                </div>
+                <div className="flyer">
+                    <img src={img19} alt="flyer" />
+                </div>
+            </div>
+            <div className="flex1">
+                <div className="text1">
+                    <h2>A tu można obejrzeć jak system działa w praktyce:</h2>
+                    <div className="links">
+                        <div className="link1">
+                            <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=uKmcPXm7Lqs">Film 1</a></p>
+                        </div>
+                        <div className="link2">
+                            <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=CXQnYJYFR5Q">Film 2</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div className="logo hoverstar">
+                    <img src={logo2} alt="hoverstar logo" />
+                </div>
             </div>
             <div className="contact">
                 <h2>Kontakt:</h2>
                 <p>+48 692 780 074</p>
                 <p>info@vmarine.pl</p>
+                <p class="facebook"><a href="www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i> Facebook</a></p>
             </div>
         </div>
     )

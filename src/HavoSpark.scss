@@ -1,4 +1,11 @@
 .havospark {
+    .heading {
+
+        h1,
+        p {
+            text-align: center;
+        }
+    }
 
     .logo,
     .havo {
@@ -49,8 +56,50 @@
             margin-top: 60px;
 
             img {
-                width: 30%;
+                width: 80%;
             }
         }
     }
+
+    .flyers {
+        @media(min-width: 1024px) {
+            display: flex;
+            margin: 0 80px;
+        }
+
+        .flyer {
+            margin: 15px 0;
+
+            @media(min-width: 1024px) {
+                flex-basis: 50%;
+            }
+
+            img {
+                width: 95%;
+            }
+        }
+    }
+
+    .links {
+        display: flex;
+
+        div {
+            flex-grow: 1;
+
+            a {
+                background-color: rgb(44, 104, 214);
+                padding: 5px 35px;
+                color: white;
+                text-decoration: none;
+
+                &:hover {
+                    background-color: rgb(62, 122, 235);
+                }
+            }
+        }
+    }
+
+    // h2 {
+    //     text-align: center;
+    // }
 }

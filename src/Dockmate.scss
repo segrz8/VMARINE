@@ -1,4 +1,12 @@
 .dockmate {
+    .heading {
+
+        h1,
+        p {
+            text-align: center;
+        }
+    }
+
     .bold {
         font-weight: bold;
     }
@@ -90,9 +98,20 @@
         }
     }
 
-    .margins {
+    // .margins {
+    //     @media(min-width: 1024px) {
+    //         margin: 80px;
+    //     }
+    // }
+
+    .dockmateLogoBelow {
         @media(min-width: 1024px) {
-            margin: 80px;
+            width: 100%;
+            margin-top: 25px;
+
+            img {
+                width: 50%;
+            }
         }
     }
 }

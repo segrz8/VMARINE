@@ -91,7 +91,7 @@ const Assistance = () => {
             </div>
             <div className="flex1">
                 <div className="text1">
-                    <p> Rozważasz instalacje nowego wyposażanie w swoim jachcie? Doradzimy i zamontujemy na Twojej jednostce sprzęt multimedialny taki jak TV, marynistyczne systemy audio, anteny satelitarne itp., klimatyzację, generator, oświetlenie podwodne, lodówki, grille i pozostałe elementy wyposażenia. W ostatnich miesiącach rozszerzyliśmy nasza ofertę o naprawy tapicerskie i szycie plandek oraz o profesjonalne oklejanie kadłuba folią w celu zabezpieczenia żelkotu lub też zmiany koloru. Od stycznia 2020 roku jako pierwsi w Polsce oferujemy oklejanie dna jachtu specjalną folią przeciwporostową, która zabezpiecza dna na okres do 5 lat bez konieczności odnawiania. </p>
+                    <p>Rozważasz instalację nowego wyposażanie w swoim jachcie? Doradzimy i zamontujemy na Twojej jednostce sprzęt multimedialny taki jak TV, marynistyczne systemy audio, anteny satelitarne oraz inne urządzenia elektroniczne. Chcesz podnieść funkcjonalność i komfort na pokładzie swojego jednostki? Możemy zamontować w twojej łodzi klimatyzację, generator, oświetlenie podwodne, lodówki, grille i pozostałe elementy wyposażenia, które znacznie poprawią i umilą czas spędzony jachcie. W ostatnich miesiącach rozszerzyliśmy nasza ofertę o naprawy tapicerskie i szycie plandek oraz o profesjonalne oklejanie kadłuba folią w celu zabezpieczenia żelkotu lub też zmiany koloru. Od stycznia 2020 roku jako pierwsi w Polsce oferujemy oklejanie dna jachtu specjalną folią przeciwporostową, która zabezpiecza dno twojej jednostki na okres do 5 lat.</p>
                 </div>
                 <div className="carousel">
                     <Carousel controls={false} indicators={false}>
@@ -100,9 +100,10 @@ const Assistance = () => {
                 </div>
             </div>
             <div className="contact">
-                <h2>Zapraszamy do kontaktu:</h2>
+                <h2>Kontakt:</h2>
                 <p>+48 692 780 074</p>
                 <p>info@vmarine.pl</p>
+                <p class="facebook"><a href="www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i> Facebook</a></p>
             </div>
         </div>
     )
