@@ -153,7 +153,7 @@ Skuter łączy w sobie nowoczesną technologię i inteligentny design gwarantuj�
                 <h2>Kontakt:</h2>
                 <p>+48 692 780 074</p>
                 <p>info@vmarine.pl</p>
-                <p class="facebook"><a href="www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i> Facebook</a></p>
+                <p class="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i> Facebook</a></p>
             </div>
         </div>
     )
