@@ -85,6 +85,8 @@
 
         div {
             flex-grow: 1;
+            display: flex;
+            justify-content: center;
 
             a {
                 background-color: rgb(44, 104, 214);

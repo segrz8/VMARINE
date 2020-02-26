@@ -123,7 +123,7 @@ const Fendertex = () => {
                 </div>
             </div>
             <div className="links">
-                <h2>A tu można obejrzeć jak system działa w praktyce:</h2>
+                <h2>Obejrzyj prezentację odbijaczy:</h2>
                 <div className="link1">
                     <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=8LFl0wi6q6w">Film 1</a></p>
                 </div>
@@ -132,7 +132,7 @@ const Fendertex = () => {
                 <h2>Kontakt:</h2>
                 <p>+48 692 780 074</p>
                 <p>info@vmarine.pl</p>
-                <p class="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i> Facebook</a></p>
+                <p class="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i></a></p>
             </div>
         </div>
     )

@@ -129,7 +129,7 @@ const Rescue = () => {
                 </div>
             </div>
             <div className="links">
-                <h2>A tu można obejrzeć jak system działa w praktyce:</h2>
+                <h2>Obejrzyj prezentację urządzenia:</h2>
                 <div className="link1">
                     <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=WH6w_Pt46vQ">Film 1</a></p>
                 </div>
@@ -144,7 +144,7 @@ const Rescue = () => {
                 <h2>Kontakt:</h2>
                 <p>+48 692 780 074</p>
                 <p>info@vmarine.pl</p>
-                <p class="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i> Facebook</a></p>
+                <p class="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i></a></p>
             </div>
         </div>
     )

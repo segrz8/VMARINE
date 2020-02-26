@@ -86,12 +86,12 @@ const Assistance = () => {
                 </div>
                 <div className="text1">
                     <h1>VMARINE – All About Yachts</h1>
-                    <p>Firma VMARINE świadczy pełen pakiet usług związanych z eksploatacją, serwisowaniem, transportem, ubezpieczeniem i bieżąco obsługą Waszego jachtu. Dzięki bardzo dużemu doświadczeniu i rozbudowanej sieci kontaktów jesteśmy w stanie zająć się Waszą łódką zarówno w Polsce jak i na terenie całej Europy. Oferujemy profesjonalny <span className="bold">SERWIS</span> łodzi i jachtów motorowych, układów napędowych, naprawy pogwarancyjne, zimowanie łodzi i jachtów w hali oraz na otwartym terenie oraz <span className="bold">TRANSPORT</span> jednostek pływających po Polsce jaki na po całej Europie.</p>
+                    <p>Firma VMARINE świadczy pełen pakiet usług związanych z eksploatacją, serwisowaniem, transportem, ubezpieczeniem i bieżącą obsługą Waszego jachtu. Dzięki bardzo dużemu doświadczeniu i rozbudowanej sieci kontaktów jesteśmy w stanie zająć się Waszą łódką zarówno w Polsce jak i na terenie całej Europy. Oferujemy profesjonalny SERWIS łodzi i jachtów motorowych, układów napędowych, naprawy pogwarancyjne, zimowanie łodzi i jachtów w hali oraz na otwartym terenie oraz TRANSPORT jednostek pływających po Polsce jaki na po całej Europie.</p>
                 </div>
             </div>
             <div className="flex1">
                 <div className="text1">
-                    <p>Rozważasz instalację nowego wyposażanie w swoim jachcie? Doradzimy i zamontujemy na Twojej jednostce sprzęt multimedialny taki jak TV, marynistyczne systemy audio, anteny satelitarne oraz inne urządzenia elektroniczne. Chcesz podnieść funkcjonalność i komfort na pokładzie swojego jednostki? Możemy zamontować w twojej łodzi klimatyzację, generator, oświetlenie podwodne, lodówki, grille i pozostałe elementy wyposażenia, które znacznie poprawią i umilą czas spędzony jachcie. W ostatnich miesiącach rozszerzyliśmy nasza ofertę o naprawy tapicerskie i szycie plandek oraz o profesjonalne oklejanie kadłuba folią w celu zabezpieczenia żelkotu lub też zmiany koloru. Od stycznia 2020 roku jako pierwsi w Polsce oferujemy oklejanie dna jachtu specjalną folią przeciwporostową, która zabezpiecza dno twojej jednostki na okres do 5 lat.</p>
+                    <p>Rozważasz instalację nowego wyposażanie w swoim jachcie? Doradzimy i zamontujemy na Twojej jednostce sprzęt multimedialny taki jak TV, marynistyczne systemy audio, anteny satelitarne oraz inne urządzenia elektroniczne. Chcesz podnieść funkcjonalność i komfort na pokładzie swojej jednostki? Możemy zamontować w twojej łodzi klimatyzację, generator, oświetlenie podwodne, lodówki, grille i pozostałe elementy wyposażenia, które znacznie poprawią i umilą czas spędzony na jachcie. W ostatnich miesiącach rozszerzyliśmy nasza ofertę o naprawy tapicerskie i szycie plandek oraz o profesjonalne oklejanie kadłuba folią w celu zabezpieczenia żelkotu lub też zmiany koloru. Od stycznia 2020 roku jako pierwsi w Polsce oferujemy oklejanie dna jachtu specjalną folią przeciwporostową, która zabezpiecza dno twojej jednostki na okres do 5 lat.</p>
                 </div>
                 <div className="carousel">
                     <Carousel controls={false} indicators={false}>
@@ -103,7 +103,7 @@ const Assistance = () => {
                 <h2>Kontakt:</h2>
                 <p>+48 692 780 074</p>
                 <p>info@vmarine.pl</p>
-                <p class="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i> Facebook</a></p>
+                <p class="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i></a></p>
             </div>
         </div>
     )

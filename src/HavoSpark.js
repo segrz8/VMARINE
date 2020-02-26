@@ -135,7 +135,7 @@ Skuter łączy w sobie nowoczesną technologię i inteligentny design gwarantuj�
             </div>
             <div className="flex1">
                 <div className="text1">
-                    <h2>A tu można obejrzeć jak system działa w praktyce:</h2>
+                    <h2>Obejrzyj prezentację skuterów:</h2>
                     <div className="links">
                         <div className="link1">
                             <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=uKmcPXm7Lqs">Film 1</a></p>
@@ -153,7 +153,7 @@ Skuter łączy w sobie nowoczesną technologię i inteligentny design gwarantuj�
                 <h2>Kontakt:</h2>
                 <p>+48 692 780 074</p>
                 <p>info@vmarine.pl</p>
-                <p class="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i> Facebook</a></p>
+                <p class="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i></a></p>
             </div>
         </div>
     )

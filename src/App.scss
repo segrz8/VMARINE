@@ -33,11 +33,11 @@ h2 {
 }
 
 p {
-    text-align: center;
-    padding: 5px 3px;
+    text-align: left;
+    padding: 5px 5px;
 
     @media(min-width: 1024px) {
-        text-align: left;
+        // text-align: left;
     }
 }
 
