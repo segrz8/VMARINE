@@ -100,11 +100,11 @@
         }
     }
 
-    // .margins {
-    //     @media(min-width: 1024px) {
-    //         margin: 80px;
-    //     }
-    // }
+    .margins {
+    @media(min-width: 1024px) {
+        margin: 80px;
+    }
+}
 
     .dockmateLogoBelow {
         @media(min-width: 1024px) {

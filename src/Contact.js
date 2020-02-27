@@ -1,7 +1,8 @@
 import React from 'react'
 import './Contact.scss';
 
-import img1 from './img/glowna/main (2).jpg';
+import img1 from './img/contact/main(2).jpg';
+import img1s from './img/contact/main(2)s.jpg';
 
 const Contact = () => {
     return (
@@ -17,7 +18,11 @@ const Contact = () => {
                 <p>NIP: 125-125-70-91</p>
             </div>
             <div className="image">
-                <img src={img1} alt="" />
+                {/* <img src={img1} alt="" /> */}
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={img1} />
+                    <img src={img1s} className="d-block w-100" alt="..." />
+                </picture>
             </div>
         </div>
     )
