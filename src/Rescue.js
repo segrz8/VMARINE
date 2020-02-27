@@ -1,5 +1,6 @@
 import React from 'react'
 import './Rescue.scss';
+import ContactBottom from './ContactBottom';
 import Carousel from 'react-bootstrap/Carousel';
 
 import img1 from './img/Rescue ARK H3/h3 (10).jpg'
@@ -128,8 +129,8 @@ const Rescue = () => {
                     <p>Dzięki systemowi GPS i przyciskowi automatycznego powrotu, Rescue Ark H3 wraca do punktu początkowego po podjęciu tonącego, od razu po naciśnięciu jednego przycisku „home”. W przypadku utraty zasięgu lub przekroczenia obszaru i zerwaniu kontaktu na więcej niż 15 sekund, urządzenie wraca automatycznie do punktu początkowego.</p>
                 </div>
             </div>
+            <h2 className="h2AboveLinks">Obejrzyj prezentację urządzenia:</h2>
             <div className="links">
-                <h2>Obejrzyj prezentację urządzenia:</h2>
                 <div className="link1">
                     <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=WH6w_Pt46vQ">Film 1</a></p>
                 </div>
@@ -140,12 +141,7 @@ const Rescue = () => {
                     <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=1KvMMw0-SyQ">Film 3</a></p>
                 </div>
             </div>
-            <div className="contact">
-                <h2>Kontakt:</h2>
-                <p>+48 692 780 074</p>
-                <p>info@vmarine.pl</p>
-                <p class="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i></a></p>
-            </div>
+            <ContactBottom />
         </div>
     )
 }

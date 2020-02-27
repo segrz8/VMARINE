@@ -1,5 +1,6 @@
 import React from 'react'
 import './Poland.scss';
+import ContactBottom from './ContactBottom';
 import Carousel from 'react-bootstrap/Carousel';
 
 import logo from './img/premiumYachts.jpg'
@@ -94,12 +95,7 @@ Możliwość personalizacji jednostek w celach promocyjnych!</p>
                     <p>Gwarantujemy wspaniałą zabawę i niezapomniany klimat wspólnych rejsów pozostających w pamięci na całe życie. Zapraszamy na pokład podczas rodzinnych wycieczek po Zatoce, imprez okolicznościowych, wieczorów panieńskich, spotkań biznesowych, rejsów firmowych oraz eventów, których w tym sezonie nie będzie brakować w Trójmieście.</p>
                 </div>
             </div>
-            <div className="contact">
-                <h2>Kontakt:</h2>
-                <p>+48 692 780 074</p>
-                <p>info@vmarine.pl</p>
-                <p class="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i></a></p>
-            </div>
+            <ContactBottom />
         </div >
     )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './HavoSpark.scss';
+import ContactBottom from './ContactBottom';
 import Carousel from 'react-bootstrap/Carousel';
 
 import logo from './img/aquajet foto/Logo/Havospark logo(1).jpg';
@@ -133,28 +134,23 @@ Skuter łączy w sobie nowoczesną technologię i inteligentny design gwarantuj�
                     <img src={img19} alt="flyer" />
                 </div>
             </div>
-            <div className="flex1">
-                <div className="text1">
-                    <h2>Obejrzyj prezentację skuterów:</h2>
-                    <div className="links">
-                        <div className="link1">
-                            <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=uKmcPXm7Lqs">Film 1</a></p>
-                        </div>
-                        <div className="link2">
-                            <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=CXQnYJYFR5Q">Film 2</a></p>
-                        </div>
-                    </div>
+            {/* <div className="flex1"> */}
+            {/* <div className="text1"> */}
+            <h2>Obejrzyj prezentację skuterów:</h2>
+            <div className="links">
+                <div className="link1">
+                    <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=uKmcPXm7Lqs">Film 1</a></p>
                 </div>
-                <div className="logo hoverstar">
-                    <img src={logo2} alt="hoverstar logo" />
+                <div className="link2">
+                    <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=CXQnYJYFR5Q">Film 2</a></p>
                 </div>
             </div>
-            <div className="contact">
-                <h2>Kontakt:</h2>
-                <p>+48 692 780 074</p>
-                <p>info@vmarine.pl</p>
-                <p class="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i></a></p>
+            {/* </div> */}
+            <div className="logo hoverstar">
+                <img src={logo2} alt="hoverstar logo" />
             </div>
+            {/* </div> */}
+            <ContactBottom />
         </div>
     )
 }

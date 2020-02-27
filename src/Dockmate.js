@@ -1,5 +1,6 @@
 import React from 'react'
 import './Dockmate.scss';
+import ContactBottom from './ContactBottom';
 import Carousel from 'react-bootstrap/Carousel';
 
 import logo from './img/dockmate foto/Dockmate-Logo-H.png';
@@ -151,12 +152,7 @@ Cały system jest produkcji belgijskiej, wykonany w UE, sprzedawany z 24 miesię
             <div className="logo dockmateLogoBelow">
                 <img src={logo2} alt="dockmate logo" />
             </div>
-            <div className="contact">
-                <h2>Kontakt:</h2>
-                <p>+48 692 780 074</p>
-                <p>info@vmarine.pl</p>
-                <p class="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i></a></p>
-            </div>
+            <ContactBottom />
         </div>
     )
 }

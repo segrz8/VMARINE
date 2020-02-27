@@ -1,5 +1,6 @@
 import React from 'react'
 import './Fendertex.scss';
+import ContactBottom from './ContactBottom';
 import Carousel from 'react-bootstrap/Carousel';
 
 import logo from './img/fendertex/fendertexLogo2.jpg'
@@ -128,12 +129,7 @@ const Fendertex = () => {
                     <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=8LFl0wi6q6w">Film 1</a></p>
                 </div>
             </div>
-            <div className="contact">
-                <h2>Kontakt:</h2>
-                <p>+48 692 780 074</p>
-                <p>info@vmarine.pl</p>
-                <p class="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i></a></p>
-            </div>
+            <ContactBottom />
         </div>
     )
 }

@@ -1,15 +1,10 @@
 .main {
-    // h1 {
-    //     font-size: 21px;
-    //     font-weight: bold;
-    //     padding: 8px;
-    // }
-
-    .aboveContact {
-        display: none;
-    }
 
     .contact {
-        margin-top: 80px;
+        margin-top: 40px;
+
+        @media(min-width: 1024px) {
+            margin-top: 80px;
+        }
     }
 }

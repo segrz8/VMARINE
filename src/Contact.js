@@ -14,6 +14,7 @@ const Contact = () => {
                 <p>info@vmarine.pl</p>
                 <p>Marina Sopot, Sopot, Polska</p>
                 <h2>Dane firmy:</h2>
+                <p>VMP</p>
                 <p>Literacka 38, 05 – 220 Zielonka</p>
                 <p>NIP: 125-125-70-91</p>
             </div>

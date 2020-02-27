@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.scss';
+import ContactBottom from './ContactBottom';
 import Carousel from 'react-bootstrap/Carousel';
 
 import img1 from './img/glowna/main(9).JPG';
@@ -82,12 +83,7 @@ const Main = () => {
                     <p>Pod marką PremiumYachts promujemy indywidualne rejsy na luksusowych jachtach motorowych na wodach Zatoki Gdańskiej oraz w Chorwacji. Jeżeli chcesz spędzić niezapomniane chwile na wodzie, wakacje na jachcie, poznać nowe miejsca i miło spędzić czas na luksusowym jachcie motorowym to zapraszamy do kontaktu. Do każdego zapytania podchodzimy indywidualnie aby jak najlepiej sprostać postawionym nam wymaganiom.</p>
                 </div>
             </div>
-            <div className="contact">
-                <h2>Kontakt:</h2>
-                <p>+48 692 780 074</p>
-                <p>info@vmarine.pl</p>
-                <p class="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i class="fab fa-facebook-square"></i></a></p>
-            </div>
+            <ContactBottom />
         </div>
     )
 }
