@@ -12,6 +12,17 @@
     }
 
     .logo {
+        width: 95%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+
+        @media(min-width: 1024px) {
+            position: static;
+            left: 0%;
+            transform: translate(0);
+        }
+
         img {
             width: 95%;
             margin-bottom: 15px;
@@ -75,7 +86,7 @@
             justify-content: center;
 
             a {
-                background-color: rgb(44, 104, 214);
+                background-color: rgb(0, 103, 180);
                 padding: 5px 35px;
                 color: white;
                 text-decoration: none;
@@ -101,19 +112,18 @@
     }
 
     .margins {
-    @media(min-width: 1024px) {
-        margin: 80px;
+        @media(min-width: 1024px) {
+            margin: 80px;
+        }
     }
-}
 
     .dockmateLogoBelow {
         @media(min-width: 1024px) {
-            width: 100%;
+            width: 50%;
             margin-top: 25px;
-
-            img {
-                width: 50%;
-            }
+            position: relative;
+            left: 50%;
+            transform: translate(-50%);
         }
     }
 }
