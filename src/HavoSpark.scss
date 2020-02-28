@@ -9,6 +9,7 @@
 
     .logo,
     .havo {
+
         img {
             width: 95%;
             margin-bottom: 15px;
@@ -69,7 +70,7 @@
     .flyers {
         @media(min-width: 1024px) {
             display: flex;
-            margin: 0 80px;
+            margin: 80px 80px 20px;
         }
 
         .flyer {
@@ -95,7 +96,7 @@
 
         @media(min-width: 1024px) {
             width: 50%;
-            position: absolute;
+            position: relative;
             left: 50%;
             transform: translate(-50%);
         }
@@ -119,6 +120,15 @@
                     background-color: rgb(62, 122, 235);
                 }
             }
+        }
+    }
+
+    .star {
+        @media(min-width: 1024px) {
+            width: 40%;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%);
         }
     }
 }

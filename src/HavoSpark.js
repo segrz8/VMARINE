@@ -4,33 +4,108 @@ import ContactBottom from './ContactBottom';
 import Carousel from 'react-bootstrap/Carousel';
 
 import logo from './img/aquajet foto/Logo/Havospark logo(1).jpg';
+import logos from './img/aquajet foto/Logo/Havospark logo(1)s.jpg';
 import logo2 from './img/aquajet foto/Logo/logo_white.jpg';
+import logo2s from './img/aquajet foto/Logo/logo_whites.jpg';
 
 import img1 from './img/aquajet foto/H2 Bali image/H2-1.jpg';
+import img1s from './img/aquajet foto/H2 Bali image/H2-1s.jpg';
 import img2 from './img/aquajet foto/H2 Bali image/H2-2.jpg';
+import img2s from './img/aquajet foto/H2 Bali image/H2-2s.jpg';
 import img3 from './img/aquajet foto/H2 Bali image/H2-4.jpg';
+import img3s from './img/aquajet foto/H2 Bali image/H2-4s.jpg';
 import img4 from './img/aquajet foto/H2 Bali image/H2-5.jpg';
+import img4s from './img/aquajet foto/H2 Bali image/H2-5s.jpg';
 import img5 from './img/aquajet foto/H2 Bali image/H2-7.jpg';
+import img5s from './img/aquajet foto/H2 Bali image/H2-7s.jpg';
 
 import img6 from './img/aquajet foto/White Photos/6ioujkjkhgrt.jpg';
 import img7 from './img/aquajet foto/White Photos/7fasfjkkgiui.jpg';
 
-import img8 from './img/aquajet foto/White Photos/002white 1 (new logo).215.png';
-import img9 from './img/aquajet foto/White Photos/002white(new logo).213.png';
-import img10 from './img/aquajet foto/White Photos/004bule(new logo).217.png';
+import img8 from './img/aquajet foto/White Photos/002white.215.png';
+import img8s from './img/aquajet foto/White Photos/002white.215s.png';
+import img9 from './img/aquajet foto/White Photos/002white(newlogo).213.png';
+import img9s from './img/aquajet foto/White Photos/002white(newlogo).213s.png';
+import img10 from './img/aquajet foto/White Photos/004bule(newlogo).217.png';
+import img10s from './img/aquajet foto/White Photos/004bule(newlogo).217s.png';
 
-import img11 from './img/aquajet foto/Photos - Average Quality/1 (1).jpg';
-import img12 from './img/aquajet foto/Photos - Average Quality/1 (2).jpg';
-import img13 from './img/aquajet foto/Photos - Average Quality/1 (3).jpg';
-import img14 from './img/aquajet foto/Photos - Average Quality/1 (13).jpg';
-import img15 from './img/aquajet foto/Photos - Average Quality/1 (42).jpg';
-import img16 from './img/aquajet foto/Photos - Average Quality/1 (45).jpg';
-import img17 from './img/aquajet foto/Photos - Average Quality/1 (62).jpg';
+import img11 from './img/aquajet foto/Photos - Average Quality/1(1).jpg';
+import img11s from './img/aquajet foto/Photos - Average Quality/1(1)s.jpg';
+import img12 from './img/aquajet foto/Photos - Average Quality/1(2).jpg';
+import img12s from './img/aquajet foto/Photos - Average Quality/1(2)s.jpg';
+import img13 from './img/aquajet foto/Photos - Average Quality/1(3).jpg';
+import img13s from './img/aquajet foto/Photos - Average Quality/1(3)s.jpg';
+import img14 from './img/aquajet foto/Photos - Average Quality/1(13).jpg';
+import img14s from './img/aquajet foto/Photos - Average Quality/1(13)s.jpg';
+import img15 from './img/aquajet foto/Photos - Average Quality/1(42).jpg';
+import img15s from './img/aquajet foto/Photos - Average Quality/1(42)s.jpg';
+import img16 from './img/aquajet foto/Photos - Average Quality/1(45).jpg';
+import img16s from './img/aquajet foto/Photos - Average Quality/1(45)s.jpg';
+import img17 from './img/aquajet foto/Photos - Average Quality/1(62).jpg';
+import img17s from './img/aquajet foto/Photos - Average Quality/1(62)s.jpg';
 
 import img18 from './img/aquajet foto/ulotka1.jpg';
 import img19 from './img/aquajet foto/ulotka2.jpg';
 
 const HavoSpark = () => {
+
+    const imgSet1 = [
+        { id: 1, path: img1, pathS: img1s, },
+        { id: 2, path: img2, pathS: img2s, },
+        { id: 3, path: img3, pathS: img3s, },
+        { id: 4, path: img4, pathS: img4s, },
+        { id: 5, path: img5, pathS: img5s, },
+    ]
+
+    const carouselItems1 = imgSet1.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
+    const imgSet2 = [
+        { id: 1, path: img8, pathS: img8s, },
+        { id: 2, path: img9, pathS: img9s, },
+        { id: 3, path: img10, pathS: img10s, },
+    ]
+
+    const carouselItems2 = imgSet2.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
+    const imgSet3 = [
+        { id: 1, path: img11, pathS: img11s, },
+        { id: 2, path: img12, pathS: img12s, },
+        { id: 3, path: img13, pathS: img13s, },
+        { id: 4, path: img14, pathS: img14s, },
+        { id: 5, path: img15, pathS: img15s, },
+        { id: 6, path: img16, pathS: img16s, },
+        { id: 7, path: img17, pathS: img17s, },
+    ]
+
+    const carouselItems3 = imgSet3.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
     return (
         <div className="havospark">
             <div className="heading">
@@ -39,7 +114,10 @@ const HavoSpark = () => {
             </div>
             <div className="flex1">
                 <div className="logo">
-                    <img src={logo} alt="havospark logo" />
+                    <picture>
+                        <source media="(min-width: 461px)" srcSet={logo} />
+                        <img src={logos} className="d-block w-100" alt="..." />
+                    </picture>
                 </div>
                 <div className="text1">
                     <p>AquaJet Dive H2 to zdobywający niebywałą popularność na całym świecie skuter podwodny przeznaczony do rekreacji, nurkowania i aktywnego spędzenia czasu na i pod wodą.
@@ -49,21 +127,7 @@ Skuter łączy w sobie nowoczesną technologię i inteligentny design gwarantuj�
             <div className="flex1">
                 <div className="carousel orderCarousel">
                     <Carousel controls={false} indicators={false}>
-                        <Carousel.Item>
-                            <img src={img1} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img2} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img3} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img4} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img5} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
+                        {carouselItems1}
                     </Carousel>
                 </div>
                 <div className="text1">
@@ -81,15 +145,7 @@ Skuter łączy w sobie nowoczesną technologię i inteligentny design gwarantuj�
             <div className="flex1">
                 <div className="carousel contain">
                     <Carousel controls={false} indicators={false}>
-                        <Carousel.Item>
-                            <img src={img8} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img9} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img10} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
+                        {carouselItems2}
                     </Carousel>
                 </div>
                 <div className="text1">
@@ -99,27 +155,7 @@ Skuter łączy w sobie nowoczesną technologię i inteligentny design gwarantuj�
             <div className="flex1">
                 <div className="carousel orderCarousel">
                     <Carousel controls={false} indicators={false}>
-                        <Carousel.Item>
-                            <img src={img11} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img12} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img13} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img14} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img15} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img16} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img17} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
+                        {carouselItems3}
                     </Carousel>
                 </div>
                 <div className="text1">
@@ -146,8 +182,11 @@ Skuter łączy w sobie nowoczesną technologię i inteligentny design gwarantuj�
                 </div>
             </div>
             {/* </div> */}
-            <div className="logo hoverstar">
-                <img src={logo2} alt="hoverstar logo" />
+            <div className="logo star">
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={logo2} />
+                    <img src={logo2s} className="d-block w-100" alt="..." />
+                </picture>
             </div>
             {/* </div> */}
             <ContactBottom />
