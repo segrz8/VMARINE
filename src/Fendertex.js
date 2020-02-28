@@ -12,37 +12,15 @@ import img4 from './img/fendertex/78700405_118735696265759_3113567439506374656_o
 import img5 from './img/fendertex/79978744_122120562593939_5359801783029858304_o.jpg'
 import img6 from './img/fendertex/xca309866dcc6f99e9d0aefd47137ff73ff996427_slider-textile-fenders-fendertex.jpg.pagespeed.ic.PM_JYoJ14M.jpg'
 import img7 from './img/fendertex/xf1c21f5d7793b00c2a353fc4f73a917d7bba02fe_pare-battages-cylindrique-gris-fendertex-slider.jpg.pagespeed.ic.mqjCHqfQeL.jpg'
+import img8 from './img/fendertex/fendertex-fenders-002.jpg'
+import img9 from './img/fendertex/81292482_128832878589374_7541409328448667648_o.jpg'
 
-import img8 from './img/fendertex/custom-colors-001.png'
-import img9 from './img/fendertex/fendertex-cylindrical-fender-001.jpg'
-import img10 from './img/fendertex/fendertex-spherical-fender-001.jpg'
-import img11 from './img/fendertex/fendertex-tubular-fender-001.jpg'
-
-import img12 from './img/fendertex/fendertex-fenders-002.jpg'
-import img13 from './img/fendertex/81292482_128832878589374_7541409328448667648_o.jpg'
+import img10 from './img/fendertex/custom-colors-001.png'
+import img11 from './img/fendertex/fendertex-cylindrical-fender-001.jpg'
+import img12 from './img/fendertex/fendertex-spherical-fender-001.jpg'
+import img13 from './img/fendertex/fendertex-tubular-fender-001.jpg'
 
 const Fendertex = () => {
-
-    // const imgSet1 = [
-    //     { id: 1, path: img1, pathS: img1s, },
-    //     { id: 2, path: img2, pathS: img2s, },
-    //     { id: 3, path: img3, pathS: img3s, },
-    //     { id: 4, path: img4, pathS: img4s, },
-    //     { id: 5, path: img5, pathS: img5s, },
-    //     { id: 6, path: img6, pathS: img6s, },
-    //     { id: 7, path: img7, pathS: img7s, },
-    // ]
-
-    // const carouselItems1 = imgSet1.map(item => {
-    //     return (
-    //         <Carousel.Item key={item.id}>
-    //             <picture>
-    //                 <source media="(min-width: 461px)" srcSet={item.path} />
-    //                 <img src={item.pathS} className="d-block w-100" alt="..." />
-    //             </picture>
-    //         </Carousel.Item>
-    //     )
-    // })
 
     return (
         <div className="fendertex">
@@ -53,11 +31,6 @@ const Fendertex = () => {
                 <div className="text1">
                     <p>Fendertex to jedyne na rynku ultralekkie odbijacze, o podwyższone wytrzymałości, które mogą być indywidualnie dopasowane do twojego jachtu. Dzięki zaawansowanym badaniom firmie Fendertex udało się opatentować specjalny materiał dzięki któremu odbijacze Fendertex są 10 razy bardziej wytrzymałe na nacisk w porównaniu do standardowych odbijaczy, a ich waga jest 95% niższa od standardowych odbijaczy z PCV. Nowoczesna konstrukcja pozwala na bardzo łatwe pompowanie i spuszczenia powietrza z odbijaczy dzięki czemu można oszczędzić dużo miejsca dedykowanego na składowanie standardowych odbijaczy. Dzięki możliwości pełnej personalizacji odbijaczy i ich ochraniaczy, możesz dopasować kolor jak i grafikę idealnie pod swój jacht.</p>
                 </div>
-                {/* <div className="carousel">
-                <Carousel controls={false} indicators={false}>
-                    {carouselItems1}
-                </Carousel>
-            </div> */}
                 <div className="carousel">
                     <Carousel controls={false} indicators={false}>
                         <Carousel.Item>
@@ -82,10 +55,10 @@ const Fendertex = () => {
                             <img src={img7} class="d-block w-100" alt="..." />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img src={img12} class="d-block w-100" alt="..." />
+                            <img src={img8} class="d-block w-100" alt="..." />
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img src={img13} class="d-block w-100" alt="..." />
+                            <img src={img9} class="d-block w-100" alt="..." />
                         </Carousel.Item>
                     </Carousel>
                 </div>
@@ -109,16 +82,16 @@ const Fendertex = () => {
                 <div className="carousel contain">
                     <Carousel controls={false} indicators={false}>
                         <Carousel.Item>
-                            <img src={img8} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img9} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
                             <img src={img10} class="d-block w-100" alt="..." />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img src={img11} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img12} class="d-block w-100" alt="..." />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={img13} class="d-block w-100" alt="..." />
                         </Carousel.Item>
                     </Carousel>
                 </div>

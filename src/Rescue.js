@@ -3,42 +3,147 @@ import './Rescue.scss';
 import ContactBottom from './ContactBottom';
 import Carousel from 'react-bootstrap/Carousel';
 
-import img1 from './img/Rescue ARK H3/h3 (10).jpg'
-import img2 from './img/Rescue ARK H3/h3 (9).jpg'
-import img3 from './img/Rescue ARK H3/h3 (3).PNG'
+import img1 from './img/Rescue ARK H3/h3(10).jpg'
+import img1s from './img/Rescue ARK H3/h3(10)s.jpg'
+import img2 from './img/Rescue ARK H3/h3(9).jpg'
+import img2s from './img/Rescue ARK H3/h3(9)s.jpg'
+import img3 from './img/Rescue ARK H3/h3(3).PNG'
+import img3s from './img/Rescue ARK H3/h3(3)s.PNG'
 
-import img4 from './img/Rescue ARK H3/h3 (1).png'
-import img5 from './img/Rescue ARK H3/h3 (2).jpg'
-import img6 from './img/Rescue ARK H3/h3 (2).png'
+import img4 from './img/Rescue ARK H3/h3(1).png'
+import img4s from './img/Rescue ARK H3/h3(1)s.png'
+import img5 from './img/Rescue ARK H3/h3(2).jpg'
+import img5s from './img/Rescue ARK H3/h3(2)s.jpg'
+import img6 from './img/Rescue ARK H3/h3(2).png'
+import img6s from './img/Rescue ARK H3/h3(2)s.png'
 
-import img7 from './img/Rescue ARK H3/h3 (6).JPG'
-import img8 from './img/Rescue ARK H3/h3 (13).jpg'
+import img7 from './img/Rescue ARK H3/h3(6).JPG'
+import img7s from './img/Rescue ARK H3/h3(6)s.JPG'
+import img8 from './img/Rescue ARK H3/h3(13).jpg'
+import img8s from './img/Rescue ARK H3/h3(13)s.jpg'
 
-import img9 from './img/Rescue ARK H3/h3 (3).JPG'
-import img10 from './img/Rescue ARK H3/h3 (12).jpg'
+import img9 from './img/Rescue ARK H3/h3(3).JPG'
+import img9s from './img/Rescue ARK H3/h3(3)s.JPG'
+import img10 from './img/Rescue ARK H3/h3(12).jpg'
+import img10s from './img/Rescue ARK H3/h3(12)s.jpg'
 
-import img11 from './img/Rescue ARK H3/h3 (7).JPG'
-import img12 from './img/Rescue ARK H3/h3 (11).jpg'
+import img11 from './img/Rescue ARK H3/h3(7).JPG'
+import img11s from './img/Rescue ARK H3/h3(7)s.JPG'
+import img12 from './img/Rescue ARK H3/h3(11).jpg'
+import img12s from './img/Rescue ARK H3/h3(11)s.jpg'
 
-import img13 from './img/Rescue ARK H3/h3 (4).JPG'
-import img14 from './img/Rescue ARK H3/h3 (8).jpg'
+import img13 from './img/Rescue ARK H3/h3(4).JPG'
+import img13s from './img/Rescue ARK H3/h3(4)s.JPG'
+import img14 from './img/Rescue ARK H3/h3(8).jpg'
+import img14s from './img/Rescue ARK H3/h3(8)s.jpg'
 
 const Rescue = () => {
+
+    const imgSet1 = [
+        { id: 1, path: img1, pathS: img1s, },
+        { id: 2, path: img2, pathS: img2s, },
+        { id: 3, path: img3, pathS: img3s, },
+    ]
+
+    const carouselItems1 = imgSet1.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
+    const imgSet2 = [
+        { id: 1, path: img4, pathS: img4s, },
+        { id: 2, path: img5, pathS: img5s, },
+        { id: 3, path: img6, pathS: img6s, },
+    ]
+
+    const carouselItems2 = imgSet2.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
+    const imgSet3 = [
+        { id: 1, path: img7, pathS: img7s, },
+        { id: 2, path: img8, pathS: img8s, },
+    ]
+
+    const carouselItems3 = imgSet3.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
+    const imgSet4 = [
+        { id: 1, path: img9, pathS: img9s, },
+        { id: 2, path: img10, pathS: img10s, },
+    ]
+
+    const carouselItems4 = imgSet4.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
+    const imgSet5 = [
+        { id: 1, path: img11, pathS: img11s, },
+        { id: 2, path: img12, pathS: img12s, },
+    ]
+
+    const carouselItems5 = imgSet5.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
+    const imgSet6 = [
+        { id: 1, path: img13, pathS: img13s, },
+        { id: 2, path: img14, pathS: img14s, },
+    ]
+
+    const carouselItems6 = imgSet6.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
     return (
         <div className="rescue">
             <h1>RESCUE ARK H3 – ZDALNIE STEROWANE URZĄDZENIE RATUNKOWE </h1>
             <div className="flex1">
                 <div className="carousel">
                     <Carousel controls={false} indicators={false}>
-                        <Carousel.Item>
-                            <img src={img1} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img2} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img3} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
+                        {carouselItems1}
                     </Carousel>
                 </div>
                 <div className="text1">
@@ -49,15 +154,7 @@ const Rescue = () => {
             <div className="flex1">
                 <div className="carousel contain orderCarousel">
                     <Carousel controls={false} indicators={false}>
-                        <Carousel.Item>
-                            <img src={img4} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img5} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img6} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
+                        {carouselItems2}
                     </Carousel>
                 </div>
                 <div className="text1 orderText">
@@ -68,12 +165,7 @@ const Rescue = () => {
             <div className="flex1">
                 <div className="carousel">
                     <Carousel controls={false} indicators={false}>
-                        <Carousel.Item>
-                            <img src={img7} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img8} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
+                        {carouselItems3}
                     </Carousel>
                 </div>
                 <div className="text1">
@@ -84,12 +176,7 @@ const Rescue = () => {
             <div className="flex1">
                 <div className="carousel orderCarousel">
                     <Carousel controls={false} indicators={false}>
-                        <Carousel.Item>
-                            <img src={img9} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img10} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
+                        {carouselItems4}
                     </Carousel>
                 </div>
                 <div className="text1">
@@ -100,12 +187,7 @@ const Rescue = () => {
             <div className="flex1">
                 <div className="carousel">
                     <Carousel controls={false} indicators={false}>
-                        <Carousel.Item>
-                            <img src={img11} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img12} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
+                        {carouselItems5}
                     </Carousel>
                 </div>
                 <div className="text1">
@@ -116,12 +198,7 @@ const Rescue = () => {
             <div className="flex1">
                 <div className="carousel orderCarousel">
                     <Carousel controls={false} indicators={false}>
-                        <Carousel.Item>
-                            <img src={img13} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img14} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
+                        {carouselItems6}
                     </Carousel>
                 </div>
                 <div className="text1">
