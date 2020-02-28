@@ -4,23 +4,114 @@ import ContactBottom from './ContactBottom';
 import Carousel from 'react-bootstrap/Carousel';
 
 import logo from './img/dockmate foto/Dockmate-Logo-H.png';
+import logos from './img/dockmate foto/Dockmate-Logo-Hs.png';
 import logo2 from './img/dockmate foto/logo2.png';
-import img1 from './img/dockmate foto/3 together.png';
+import logo2s from './img/dockmate foto/logo2s.png';
+import img1 from './img/dockmate foto/3together.png';
+import img1s from './img/dockmate foto/3togethers.png';
 
 import img2 from './img/dockmate foto/JM3.jpg';
+import img2s from './img/dockmate foto/JM3s.jpg';
 import img3 from './img/dockmate foto/JM4.png';
 import img4 from './img/dockmate foto/JM5.png';
 
 import img5 from './img/dockmate foto/Dockmate hand.jpg';
+import img5s from './img/dockmate foto/Dockmate hands.jpg';
 import img6 from './img/dockmate foto/hand_arrows_twin.png';
+import img6s from './img/dockmate foto/hand_arrows_twins.png';
 import img7 from './img/dockmate foto/JM1.png';
+import img7s from './img/dockmate foto/JM1s.png';
 
 import img8 from './img/dockmate foto/033.JPG';
+import img8s from './img/dockmate foto/033s.JPG';
 import img9 from './img/dockmate foto/BIG_TWIST_ANGLE.jpg';
+import img9s from './img/dockmate foto/BIG_TWIST_ANGLEs.jpg';
 import img10 from './img/dockmate foto/charger.png';
+import img10s from './img/dockmate foto/chargers.png';
 import img11 from './img/dockmate foto/JM2.png';
+import img11s from './img/dockmate foto/JM2s.png';
+
+import img12 from './img/dockmate foto/dockmate strona nowe 2020/i1.png';
+import img12s from './img/dockmate foto/dockmate strona nowe 2020/i1s.png';
+import img13 from './img/dockmate foto/dockmate strona nowe 2020/i2.png';
+import img13s from './img/dockmate foto/dockmate strona nowe 2020/i2s.png';
+import img14 from './img/dockmate foto/dockmate strona nowe 2020/i3.png';
+import img14s from './img/dockmate foto/dockmate strona nowe 2020/i3s.png';
+import img15 from './img/dockmate foto/dockmate strona nowe 2020/i4.png';
+import img15s from './img/dockmate foto/dockmate strona nowe 2020/i4s.png';
 
 const Dockmate = () => {
+
+    const imgSet1 = [
+        { id: 1, path: img2, pathS: img2s, },
+        { id: 2, path: img3, pathS: img3, },
+        { id: 3, path: img4, pathS: img4, },
+    ]
+
+    const carouselItems1 = imgSet1.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
+    const imgSet2 = [
+        { id: 1, path: img5, pathS: img5s, },
+        { id: 2, path: img6, pathS: img6s, },
+        { id: 3, path: img7, pathS: img7s, },
+    ]
+
+    const carouselItems2 = imgSet2.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
+    const imgSet3 = [
+        { id: 1, path: img8, pathS: img8s, },
+        { id: 2, path: img9, pathS: img9s, },
+        { id: 3, path: img10, pathS: img10s, },
+        { id: 4, path: img11, pathS: img11s, },
+    ]
+
+    const carouselItems3 = imgSet3.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
+    const imgSet4 = [
+        { id: 1, path: img12, pathS: img12s, },
+        { id: 2, path: img13, pathS: img13s, },
+        { id: 3, path: img14, pathS: img14s, },
+        { id: 4, path: img15, pathS: img15s, },
+    ]
+
+    const carouselItems4 = imgSet4.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
     return (
         <div className="dockmate">
             <div className="heading">
@@ -29,7 +120,10 @@ const Dockmate = () => {
             </div>
             <div className="flex1">
                 <div className="logo">
-                    <img src={logo} alt="dockmate logo" />
+                    <picture>
+                        <source media="(min-width: 461px)" srcSet={logo} />
+                        <img src={logos} className="d-block w-100" alt="..." />
+                    </picture>
                 </div>
                 <div className="text1">
                     <p>System dockmate pozwala na bezprzewodowe sterowanie silnikami (biegi lub biegi plus przepustnica), sterami strumieniowymi, klaksonem oraz wciągarkami kotwicy dzięki czemu operowanie jachtem staje się dużo łatwiejsze i wygodniejsze. Dzięki systemowi dockmate jesteś w stanie manewrować jachtem za pomocą pilota z każdego miejsca na pokładzie co znacząco ułatwia manewry w porcie i pozwala na samodzielne, bezpieczne cumowanie nawet większych jednostek. Jest to też niebywałe ułatwienie dla osób które pływają same lub też z mało doświadczonymi pasażerami.</p>
@@ -37,7 +131,10 @@ const Dockmate = () => {
             </div>
             <div className="flex1">
                 <div className="remote orderCarousel">
-                    <img src={img1} alt="dockmate" />
+                    <picture>
+                        <source media="(min-width: 461px)" srcSet={img1} />
+                        <img src={img1s} className="d-block w-100" alt="..." />
+                    </picture>
                 </div>
                 <div className="text1">
                     <p>Każdy system jest indywidualnie konfigurowany i programowany pod dany jacht w zależności od zamontowanego układu napędowego i jego sterowania (silniki, przekładnie, manetka), wersji oprzyrządowania silników, typu i rodzaju sterów strumieniowych (1 lub 2, proporcjonalne lub dwubiegowe) oraz wciągarki kotwicy. System obsługuje zarówno instalacje jednosilnikowe jak i dwusilnikowe. Jedynym wymaganiem jest elektroniczna manetka (elektroniczne sterowanie przekładniami).</p>
@@ -46,15 +143,7 @@ const Dockmate = () => {
             <div className="flex1">
                 <div className="carousel contain">
                     <Carousel controls={false} indicators={false}>
-                        <Carousel.Item>
-                            <img src={img2} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img3} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img4} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
+                        {carouselItems1}
                     </Carousel>
                 </div>
                 <div className="text1">
@@ -89,18 +178,7 @@ const Dockmate = () => {
             </ul>
             <div className="carousel">
                 <Carousel controls={false} indicators={false}>
-                    <Carousel.Item>
-                        <img src={img8} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img9} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img10} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={img11} class="d-block w-100" alt="..." />
-                    </Carousel.Item>
+                    {carouselItems3}
                 </Carousel>
             </div>
             <h2 className="h2overUl">Aktualnie obsługiwane systemy sterowania sterami strumieniowymi:</h2>
@@ -126,15 +204,7 @@ Cały system jest produkcji belgijskiej, wykonany w UE, sprzedawany z 24 miesię
             <div className="flex1">
                 <div className="carousel">
                     <Carousel controls={false} indicators={false}>
-                        <Carousel.Item>
-                            <img src={img5} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img6} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img7} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
+                        {carouselItems2}
                     </Carousel>
                 </div>
                 <div className="text1">
@@ -149,8 +219,16 @@ Cały system jest produkcji belgijskiej, wykonany w UE, sprzedawany z 24 miesię
                     </div>
                 </div>
             </div>
+            <div className="carousel">
+                <Carousel controls={false} indicators={false}>
+                    {carouselItems4}
+                </Carousel>
+            </div>
             <div className="logo dockmateLogoBelow">
-                <img src={logo2} alt="dockmate logo" />
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={logo2} />
+                    <img src={logo2s} className="d-block w-100" alt="..." />
+                </picture>
             </div>
             <ContactBottom />
         </div>
