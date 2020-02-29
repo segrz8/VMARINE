@@ -126,4 +126,13 @@
             transform: translate(-50%);
         }
     }
+
+    .carouselBottom {
+        img {
+            @media(min-width: 1024px) {
+                height: 370px;
+                margin-top: 30px;
+            }
+        }
+    }
 }

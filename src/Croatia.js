@@ -6,16 +6,61 @@ import Carousel from 'react-bootstrap/Carousel';
 import logo from './img/premiumYachts.jpg'
 
 import img1 from './img/CHORWACJA/20170814_130815.jpg'
+import img1s from './img/CHORWACJA/20170814_130815s.jpg'
 import img2 from './img/CHORWACJA/20170814_145820.jpg'
+import img2s from './img/CHORWACJA/20170814_145820s.jpg'
 import img3 from './img/CHORWACJA/20190625_121948.jpg'
+import img3s from './img/CHORWACJA/20190625_121948s.jpg'
 import img4 from './img/CHORWACJA/DSC01900.JPG'
+import img4s from './img/CHORWACJA/DSC01900s.JPG'
 
-import img5 from './img/CHORWACJA/m44 2017 (1).jpg'
+import img5 from './img/CHORWACJA/m442017(1).jpg'
+import img5s from './img/CHORWACJA/m442017(1)s.jpg'
 import img6 from './img/CHORWACJA/68a21c214a0999bdb56353221db2.jpg'
+import img6s from './img/CHORWACJA/68a21c214a0999bdb56353221db2s.jpg'
 import img7 from './img/CHORWACJA/20150708_190838.jpg'
+import img7s from './img/CHORWACJA/20150708_190838s.jpg'
 import img8 from './img/CHORWACJA/20180422_132249.jpg'
+import img8s from './img/CHORWACJA/20180422_132249s.jpg'
 
 const Croatia = () => {
+
+    const imgSet1 = [
+        { id: 1, path: img1, pathS: img1s, },
+        { id: 2, path: img2, pathS: img2s, },
+        { id: 3, path: img3, pathS: img3s, },
+        { id: 4, path: img4, pathS: img4s, },
+    ]
+
+    const carouselItems1 = imgSet1.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
+    const imgSet2 = [
+        { id: 1, path: img5, pathS: img5s, },
+        { id: 2, path: img6, pathS: img6s, },
+        { id: 3, path: img7, pathS: img7s, },
+        { id: 4, path: img8, pathS: img8s, },
+    ]
+
+    const carouselItems2 = imgSet2.map(item => {
+        return (
+            <Carousel.Item key={item.id}>
+                <picture>
+                    <source media="(min-width: 461px)" srcSet={item.path} />
+                    <img src={item.pathS} className="d-block w-100" alt="..." />
+                </picture>
+            </Carousel.Item>
+        )
+    })
+
     return (
         <div className="croatia">
             <h1>INDYWIDUALNE REJSY W CHORWACJI</h1>
@@ -29,20 +74,11 @@ const Croatia = () => {
             </div>
             <div className="flex1">
                 <div className="carousel orderCarousel">
-                    <Carousel controls={false} indicators={false}>
-                        <Carousel.Item>
-                            <img src={img1} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img2} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img3} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img4} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                    </Carousel>
+                    <div className="carousel">
+                        <Carousel controls={false} indicators={false}>
+                            {carouselItems1}
+                        </Carousel>
+                    </div>
                 </div>
                 <div className="text1">
                     <p>Naszymi bazami są marina w Punacie (Północ Chorwacji, wyspa Krk) oraz mariny w okolicach Sibenika i Zadaru w Dalmacji. Dzięki nowym połączeniom lotniczym, transfer do Chorwacji jest szybki i wygodny, a bezpośrednie loty z Warszawy pozwalają dostać się na jacht w 2,5 godziny od wylotu z Okęcia. Na miejscu organizujemy transfer z lotniska do marin, noclegi w hotelach (jeżeli ktoś nie chce spać na jachcie) oraz rezerwacje w najlepszych, lokalnych restauracjach.</p>
@@ -51,18 +87,7 @@ const Croatia = () => {
             <div className="flex1">
                 <div className="carousel">
                     <Carousel controls={false} indicators={false}>
-                        <Carousel.Item>
-                            <img src={img5} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img6} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img7} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={img8} class="d-block w-100" alt="..." />
-                        </Carousel.Item>
+                        {carouselItems2}
                     </Carousel>
                 </div>
                 <div className="text1">

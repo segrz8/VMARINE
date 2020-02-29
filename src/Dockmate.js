@@ -219,7 +219,7 @@ Cały system jest produkcji belgijskiej, wykonany w UE, sprzedawany z 24 miesię
                     </div>
                 </div>
             </div>
-            <div className="carousel">
+            <div className="carouselBottom">
                 <Carousel controls={false} indicators={false}>
                     {carouselItems4}
                 </Carousel>
