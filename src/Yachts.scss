@@ -1,0 +1,52 @@
+.yachts {
+
+    div {
+        background-size: cover;
+        height: 180px;
+        color: #fff;
+        font-size: 34px;
+        text-shadow: 3px 3px black;
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .yacht1 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.1)), url('./img/jachty/Azimut\ 45\ Fly/20190329_160813-1080x675.jpg');
+    }
+
+    .yacht2 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.1)), url('./img/jachty/E33\ 2010/e332010(10).jpg');
+    }
+
+    .yacht3 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.1)), url('./img/jachty/m44\ regata/m442017(1).jpg');
+    }
+
+    .yacht4 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.1)), url('./img/jachty/Bayliner\ 2655\ Ciera\ 2002\ -\ 23\ 000\ Euro\ brutto/IMG_20190131_133018.jpg');
+    }
+
+    .yacht5 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.1)), url('./img/jachty/Cayman\ 60\ HT\ 2011\ -\ 460\ 000\ Euro\ brutto/cayman60ht(22).JPG');
+    }
+
+    .yacht6 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.1)), url('./img/jachty/Cruisers\ Yachts\ 390\ Sport\ Coupe\ 2008\ -\ 169\ 000\ Euro\ brutto/Cruisers390(9).jpg');
+    }
+
+    .yacht7 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.1)), url('./img/jachty/Jeanneau\ Prestige\ 38\ S\ 2008\ -\ 155\ 000\ Euro\ brutto/Jeanneau38S(7).JPG');
+    }
+
+    .yacht8 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.1)), url('./img/jachty/Jeanneau\ Prestige\ 390S\ 2011\ -\ 205\ 000\ Euro\ brutto/390S(3).jpg');
+    }
+}
