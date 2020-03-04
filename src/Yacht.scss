@@ -1,0 +1,59 @@
+.yacht {
+    @media(min-width: 1024px) {
+        margin: 0 80px 80px;
+    }
+
+    .gallery {
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .photo {
+            border: 2px solid white;
+            height: 100px;
+            flex-basis: 33.33%;
+
+            img {
+                object-fit: cover;
+                height: 100px;
+                width: 100%
+            }
+        }
+    }
+
+    .yacht-text {
+        margin: 5px;
+
+        .specification {
+            margin-bottom: 15px;
+        }
+
+        .price {
+            margin: 15px 0;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: left;
+            padding: 0;
+            margin: 15px 0;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        ul {
+            text-align: left;
+
+            li {
+                margin-left: 25px;
+            }
+        }
+    }
+}
