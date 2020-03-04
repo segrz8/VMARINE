@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/VMARINE/static/css/main.f11afb3e.chunk.css",
+    "main.css": "/VMARINE/static/css/main.e5df02c1.chunk.css",
     "main.js": "/VMARINE/static/js/main.a4a92e15.chunk.js",
     "main.js.map": "/VMARINE/static/js/main.a4a92e15.chunk.js.map",
     "runtime-main.js": "/VMARINE/static/js/runtime-main.e9d07edb.js",
@@ -9,10 +9,10 @@
     "static/js/2.d83f1248.chunk.js": "/VMARINE/static/js/2.d83f1248.chunk.js",
     "static/js/2.d83f1248.chunk.js.map": "/VMARINE/static/js/2.d83f1248.chunk.js.map",
     "index.html": "/VMARINE/index.html",
-    "precache-manifest.f4cf729e1f5fef316c0727de473ef798.js": "/VMARINE/precache-manifest.f4cf729e1f5fef316c0727de473ef798.js",
+    "precache-manifest.58061148a60c95ae0e820372178f8046.js": "/VMARINE/precache-manifest.58061148a60c95ae0e820372178f8046.js",
     "service-worker.js": "/VMARINE/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/VMARINE/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.f11afb3e.chunk.css.map": "/VMARINE/static/css/main.f11afb3e.chunk.css.map",
+    "static/css/main.e5df02c1.chunk.css.map": "/VMARINE/static/css/main.e5df02c1.chunk.css.map",
     "static/js/2.d83f1248.chunk.js.LICENSE.txt": "/VMARINE/static/js/2.d83f1248.chunk.js.LICENSE.txt",
     "static/media/002white(newlogo).213.png": "/VMARINE/static/media/002white(newlogo).213.41471ba3.png",
     "static/media/002white(newlogo).213s.png": "/VMARINE/static/media/002white(newlogo).213s.49ec3d66.png",
@@ -255,7 +255,7 @@
     "static/js/runtime-main.e9d07edb.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.d83f1248.chunk.js",
-    "static/css/main.f11afb3e.chunk.css",
+    "static/css/main.e5df02c1.chunk.css",
     "static/js/main.a4a92e15.chunk.js"
   ]
 }
