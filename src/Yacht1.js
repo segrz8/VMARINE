@@ -1,5 +1,6 @@
 import React from 'react'
 import './Yacht.scss';
+import ContactBottom from './ContactBottom';
 
 import img1 from './img/jachty/Azimut 45 Fly/20190329_160813-1080x675.jpg'
 import img2 from './img/jachty/Azimut 45 Fly/IMG_7739.JPG'
@@ -99,6 +100,7 @@ const Yacht1 = () => {
                     <li>Ponton Lomax 270 XL z silnikiem 8 KM</li>
                 </ul>
             </div>
+            <ContactBottom />
         </div>
     )
 }

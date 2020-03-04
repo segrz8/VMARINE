@@ -3,7 +3,7 @@ import './Yacht.scss';
 
 const Yacht2 = () => {
     return (
-        <div className="yacht2">
+        <div className="yacht">
             2
         </div>
     )
