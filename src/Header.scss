@@ -1,7 +1,4 @@
 .header {
-
-    // position: relative;
-    // .vmarine-logo {
     img {
         width: 95%;
         margin-top: 5px;
@@ -10,28 +7,6 @@
             width: 20%;
         }
     }
-
-    // @media(min-width: 1024px) {
-    //     position: absolute;
-    //     top: 0;
-    //     left: 50%;
-    //     transform: translate(-50%);
-    //     margin-top: 0;
-    //     // height: 150px;
-    //     width: 20%;
-    //     background-color: rgb(255, 255, 255);
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    //     padding: 5px 20px;
-
-    // img {
-    //     width: 85%;
-    //     object-fit: fill;
-    // }
-    // }
-
-    // }
 
     .boats {
         width: 100%;
@@ -42,27 +17,4 @@
             display: none;
         }
     }
-
-    // .rect,
-    // .rect2 {
-    //     position: absolute;
-    //     top: 0;
-    //     background-color: white;
-    //     width: 80px;
-    //     height: 300px;
-
-    //     @media(max-width: 1023px) {
-    //         display: none;
-    //     }
-    // }
-
-    // .rect {
-    //     left: 0;
-    //     background-color: black;
-    // }
-
-    // .rect2 {
-    //     right: 0;
-    //     background-color: black;
-    // }
 }

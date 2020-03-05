@@ -170,8 +170,6 @@ Skuter łączy w sobie nowoczesną technologię i inteligentny design gwarantuj�
                     <img src={img19} alt="flyer" />
                 </div>
             </div>
-            {/* <div className="flex1"> */}
-            {/* <div className="text1"> */}
             <h2>Obejrzyj prezentację skuterów:</h2>
             <div className="links">
                 <div className="link1">
@@ -181,14 +179,12 @@ Skuter łączy w sobie nowoczesną technologię i inteligentny design gwarantuj�
                     <p><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=CXQnYJYFR5Q">Film 2</a></p>
                 </div>
             </div>
-            {/* </div> */}
             <div className="logo star">
                 <picture>
                     <source media="(min-width: 461px)" srcSet={logo2} />
                     <img src={logo2s} className="d-block w-100" alt="..." />
                 </picture>
             </div>
-            {/* </div> */}
             <ContactBottom />
         </div>
     )

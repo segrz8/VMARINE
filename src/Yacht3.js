@@ -41,12 +41,6 @@ const Yacht3 = () => {
 
     const photos = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21, img22, img23, img24, img25, img26, img27, img28, img29, img30, img31, img32, img33]
 
-    // const list = photos.map(photo =>
-    //     <div className="photo" key={photo}>
-    //         <img src={photo} alt="yacht" />
-    //     </div>
-    // )
-
     const list = photos.map(photo =>
         <Carousel.Item key={photo}>
             <img src={photo} className="d-block w-100" alt="..." />

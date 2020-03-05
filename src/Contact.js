@@ -19,7 +19,6 @@ const Contact = () => {
                 <p>NIP: 125-125-70-91</p>
             </div>
             <div className="image">
-                {/* <img src={img1} alt="" /> */}
                 <picture>
                     <source media="(min-width: 461px)" srcSet={img1} />
                     <img src={img1s} className="d-block w-100" alt="..." />

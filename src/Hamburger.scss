@@ -1,5 +1,4 @@
 .hamburger {
-    // width: 30px;
     font-size: 28px;
     position: sticky;
     top: 0;
@@ -11,7 +10,6 @@
     @media(min-width: 1024px) {
         margin-left: calc(100% - 80px);
         width: 80px;
-        // margin-bottom: 38px;
     }
 
     i {
@@ -19,9 +17,5 @@
             cursor: pointer;
             line-height: 80px;
         }
-
-        // &:hover {
-        //     color: rgb(12, 89, 119);
-        // }
     }
 }

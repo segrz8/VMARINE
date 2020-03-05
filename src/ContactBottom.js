@@ -10,7 +10,6 @@ const ContactBottom = () => {
             <h2>Kontakt:</h2>
             <p>+48 692 780 074</p>
             <p>info@vmarine.pl</p>
-            {/* <p className="facebook"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts"><i className="fab fa-facebook-square"></i></a></p> */}
             <div className="logoContact">
                 <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/PremiumYachts">
                     <img src={facebookLogo} alt="facebook Logo" />
