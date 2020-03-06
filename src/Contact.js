@@ -11,7 +11,7 @@ const Contact = () => {
                 <h1>Kontakt:</h1>
                 <h2>VMARINE</h2>
                 <p>+48 692 780 074</p>
-                <p>info@vmarine.pl</p>
+                <a href="mailto: info@vmarine.pl">info@vmarine.pl</a>
                 <p>Marina Sopot, Sopot, Polska</p>
                 <h2>Dane firmy:</h2>
                 <p>VMP</p>
