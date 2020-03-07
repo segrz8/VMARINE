@@ -1,5 +1,5 @@
 .menu {
-    text-transform: uppercase;
+    // text-transform: uppercase;
     border: 2px solid rgb(194, 194, 194);
     position: fixed;
     right: -110vw;
@@ -31,7 +31,7 @@
 
         li {
             padding: 3px;
-            font-size: 21px;
+            font-size: 18px;
             border-bottom: 1px solid #fff;
 
             @media(max-width: 350px) {
@@ -39,11 +39,11 @@
             }
 
             @media (orientation: landscape) {
-                font-size: 17px;
+                font-size: 16px;
             }
 
             @media(min-width: 1024px) {
-                font-size: 24px;
+                font-size: 22px;
             }
 
             a {
