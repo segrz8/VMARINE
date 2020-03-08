@@ -24,6 +24,7 @@ import Poland from './Poland';
 import Croatia from './Croatia';
 import Assistance from './Assistance';
 import Contact from './Contact';
+import Footer from './Footer';
 import ScrollToTop from 'react-router-scroll-top';
 
 class App extends React.Component {
@@ -78,6 +79,9 @@ class App extends React.Component {
 							<Route path="/contact" component={Contact} />
 						</ScrollToTop>
 					</main>
+					<footer>
+						<Footer />
+					</footer>
 				</div>
 			</BrowserRouter>
 		);

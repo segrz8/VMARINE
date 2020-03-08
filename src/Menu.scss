@@ -31,11 +31,11 @@
 
         li {
             padding: 3px;
-            font-size: 18px;
+            font-size: 17px;
             border-bottom: 1px solid #fff;
 
             @media(max-width: 350px) {
-                font-size: 17px;
+                font-size: 16px;
             }
 
             @media (orientation: landscape) {
@@ -43,7 +43,7 @@
             }
 
             @media(min-width: 1024px) {
-                font-size: 22px;
+                font-size: 24px;
             }
 
             a {
