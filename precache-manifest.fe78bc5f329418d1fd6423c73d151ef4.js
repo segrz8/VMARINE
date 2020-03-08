@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4bf4878b36aa0fe5d61fe3d0562e64c0",
+    "revision": "554407251b7bd32b61211eb7035dd6cb",
     "url": "/VMARINE/index.html"
   },
   {
-    "revision": "76564fe4c353e6d1d36d",
+    "revision": "99e3e3e72c69c0d940a2",
     "url": "/VMARINE/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "063c28a709ed4504529a",
+    "revision": "eaf34e93ad1ef2574348",
     "url": "/VMARINE/static/css/main.cb69ef95.chunk.css"
   },
   {
-    "revision": "76564fe4c353e6d1d36d",
-    "url": "/VMARINE/static/js/2.7f382cb4.chunk.js"
+    "revision": "99e3e3e72c69c0d940a2",
+    "url": "/VMARINE/static/js/2.6d5e5baf.chunk.js"
   },
   {
     "revision": "bf23039b4e70a07c5aeb1b4010df3572",
-    "url": "/VMARINE/static/js/2.7f382cb4.chunk.js.LICENSE.txt"
+    "url": "/VMARINE/static/js/2.6d5e5baf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "063c28a709ed4504529a",
-    "url": "/VMARINE/static/js/main.c0cfb7e5.chunk.js"
+    "revision": "eaf34e93ad1ef2574348",
+    "url": "/VMARINE/static/js/main.87bf9071.chunk.js"
   },
   {
     "revision": "4c1934d81c52e8db83c8",
