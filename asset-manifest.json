@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/VMARINE/static/css/main.cb69ef95.chunk.css",
-    "main.js": "/VMARINE/static/js/main.87bf9071.chunk.js",
-    "main.js.map": "/VMARINE/static/js/main.87bf9071.chunk.js.map",
+    "main.css": "/VMARINE/static/css/main.46316597.chunk.css",
+    "main.js": "/VMARINE/static/js/main.554ab4ab.chunk.js",
+    "main.js.map": "/VMARINE/static/js/main.554ab4ab.chunk.js.map",
     "runtime-main.js": "/VMARINE/static/js/runtime-main.e9d07edb.js",
     "runtime-main.js.map": "/VMARINE/static/js/runtime-main.e9d07edb.js.map",
     "static/css/2.47e06e2e.chunk.css": "/VMARINE/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.6d5e5baf.chunk.js": "/VMARINE/static/js/2.6d5e5baf.chunk.js",
-    "static/js/2.6d5e5baf.chunk.js.map": "/VMARINE/static/js/2.6d5e5baf.chunk.js.map",
+    "static/js/2.f2eda7e0.chunk.js": "/VMARINE/static/js/2.f2eda7e0.chunk.js",
+    "static/js/2.f2eda7e0.chunk.js.map": "/VMARINE/static/js/2.f2eda7e0.chunk.js.map",
     "index.html": "/VMARINE/index.html",
-    "precache-manifest.fe78bc5f329418d1fd6423c73d151ef4.js": "/VMARINE/precache-manifest.fe78bc5f329418d1fd6423c73d151ef4.js",
+    "precache-manifest.776c618c4ee44e1736a89416752fa117.js": "/VMARINE/precache-manifest.776c618c4ee44e1736a89416752fa117.js",
     "service-worker.js": "/VMARINE/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/VMARINE/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.cb69ef95.chunk.css.map": "/VMARINE/static/css/main.cb69ef95.chunk.css.map",
-    "static/js/2.6d5e5baf.chunk.js.LICENSE.txt": "/VMARINE/static/js/2.6d5e5baf.chunk.js.LICENSE.txt",
+    "static/css/main.46316597.chunk.css.map": "/VMARINE/static/css/main.46316597.chunk.css.map",
+    "static/js/2.f2eda7e0.chunk.js.LICENSE.txt": "/VMARINE/static/js/2.f2eda7e0.chunk.js.LICENSE.txt",
     "static/media/002white(newlogo).213.png": "/VMARINE/static/media/002white(newlogo).213.41471ba3.png",
     "static/media/002white(newlogo).213s.png": "/VMARINE/static/media/002white(newlogo).213s.49ec3d66.png",
     "static/media/002white.215.png": "/VMARINE/static/media/002white.215.5a5fc405.png",
@@ -402,8 +402,8 @@
   "entrypoints": [
     "static/js/runtime-main.e9d07edb.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.6d5e5baf.chunk.js",
-    "static/css/main.cb69ef95.chunk.css",
-    "static/js/main.87bf9071.chunk.js"
+    "static/js/2.f2eda7e0.chunk.js",
+    "static/css/main.46316597.chunk.css",
+    "static/js/main.554ab4ab.chunk.js"
   ]
 }
