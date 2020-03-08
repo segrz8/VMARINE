@@ -1,4 +1,5 @@
 import React from 'react';
+import 'react-app-polyfill/ie11';
 import { BrowserRouter, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
