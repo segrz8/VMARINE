@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36fbeb7cd9e6e633733fd76479eba781",
+    "revision": "ce16535650d65932646291e5f6e08a4e",
     "url": "/VMARINE/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VMARINE/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "7ebdec34655d24c80b29",
-    "url": "/VMARINE/static/css/main.46316597.chunk.css"
+    "revision": "f7aaf077ec8b4bf20526",
+    "url": "/VMARINE/static/css/main.0c721d2d.chunk.css"
   },
   {
     "revision": "a013e97c3205db55e46a",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VMARINE/static/js/2.f2eda7e0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ebdec34655d24c80b29",
+    "revision": "f7aaf077ec8b4bf20526",
     "url": "/VMARINE/static/js/main.554ab4ab.chunk.js"
   },
   {
