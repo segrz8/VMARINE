@@ -6,8 +6,9 @@
     width: 100vw;
     z-index: 2;
     transition: .2s;
-    background-color: rgba(0, 106, 148, 0.93);
-    box-shadow: inset 0 0 115px 25px rgba(0, 0, 0, 0.55);
+    // background-color: rgba(0, 106, 148, 0.93);
+    background-color: rgba(0, 103, 180, 0.95);
+    // box-shadow: inset 0 0 115px 25px rgba(0, 0, 0, 0.55);
 
     @media (orientation: landscape) {
         top: 0;
